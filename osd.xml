@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/" xmlns:moz="http://www.mozilla.org/2006/browser/search/">
+	<ShortName>Emery Berger</ShortName>
+	<Description>Search Emery Berger - Professor of Computer Science, UMass Amherst</Description>
+	<Contact>help@wordpress.com</Contact>
+	<Url type="application/atom+xml" template="https://emeryberger.com/?s={searchTerms}&amp;feed=atom" />
+	<Url type="rss+xml" template="https://emeryberger.com/?s={searchTerms}&amp;feed=rss2" />
+	<Url type="text/html" template="https://emeryberger.com/?s={searchTerms}" method="GET" />
+	<Url type="application/opensearchdescription+xml" rel="self" template="https://emeryberger.com/osd.xml" />
+	<LongName>Emery Berger</LongName>
+	<Image height="16" width="16" type="image/vnd.microsoft.icon">https://emeryberger.com/favicon.ico</Image>
+	<Image height="64" width="64" type="image/png">https://s-ssl.wordpress.com/i/logo/gray-white-transparent-64.png</Image>
+	<Query role="example" searchTerms="photography" />
+	<Tags>blog</Tags>
+	<Developer>Automattic</Developer>
+	<SyndicationRight>open</SyndicationRight>
+	<AdultContent>false</AdultContent>
+	<Language>en</Language>
+	<OutputEncoding>UTF-8</OutputEncoding>
+	<InputEncoding>UTF-8</InputEncoding>
+	<moz:SearchForm>https://emeryberger.com</moz:SearchForm>
+</OpenSearchDescription>

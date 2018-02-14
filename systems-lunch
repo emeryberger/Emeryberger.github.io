@@ -1,0 +1,951 @@
+<!DOCTYPE html>
+<!--[if IE 8]>
+<html id="ie8" lang="en">
+<![endif]-->
+<!--[if !(IE 8)]><!-->
+<html lang="en">
+<!--<![endif]-->
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Systems Lunch | Emery Berger</title>
+<link rel="profile" href="http://gmpg.org/xfn/11" />
+<link rel="pingback" href="https://emeryberger.com/xmlrpc.php" />
+<!--[if lt IE 9]>
+<script src="https://s0.wp.com/wp-content/themes/pub/oxygen/js/html5.js" type="text/javascript"></script>
+<![endif]-->
+
+		<script src='https://r-login.wordpress.com/remote-login.php?action=js&amp;host=emeryberger.com&amp;id=74373737&amp;t=1518629280&amp;back=https%3A%2F%2Femeryberger.com%2Fsystems-lunch%2F' type="text/javascript"></script>
+		<script type="text/javascript">
+		/* <![CDATA[ */
+			if ( 'function' === typeof WPRemoteLogin ) {
+				document.cookie = "wordpress_test_cookie=test; path=/";
+				if ( document.cookie.match( /(;|^)\s*wordpress_test_cookie\=/ ) ) {
+					WPRemoteLogin();
+				}
+			}
+		/* ]]> */
+		</script>
+		<link rel='dns-prefetch' href='//s2.wp.com' />
+<link rel='dns-prefetch' href='//s0.wp.com' />
+<link rel='dns-prefetch' href='//emeryberger.wordpress.com' />
+<link rel='dns-prefetch' href='//s1.wp.com' />
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.pubmine.com' />
+<link rel='dns-prefetch' href='//x.bidswitch.net' />
+<link rel='dns-prefetch' href='//static.criteo.net' />
+<link rel='dns-prefetch' href='//ib.adnxs.com' />
+<link rel='dns-prefetch' href='//aax.amazon-adsystem.com' />
+<link rel='dns-prefetch' href='//bidder.criteo.com' />
+<link rel='dns-prefetch' href='//cas.criteo.com' />
+<link rel='dns-prefetch' href='//gum.criteo.com' />
+<link rel='dns-prefetch' href='//ads.pubmatic.com' />
+<link rel='dns-prefetch' href='//gads.pubmatic.com' />
+<link rel='dns-prefetch' href='//tpc.googlesyndication.com' />
+<link rel='dns-prefetch' href='//ad.doubleclick.net' />
+<link rel='dns-prefetch' href='//googleads.g.doubleclick.net' />
+<link rel='dns-prefetch' href='//www.googletagservices.com' />
+<link rel='dns-prefetch' href='//cdn.switchadhub.com' />
+<link rel='dns-prefetch' href='//delivery.g.switchadhub.com' />
+<link rel='dns-prefetch' href='//delivery.swid.switchadhub.com' />
+<link rel="alternate" type="application/rss+xml" title="Emery Berger &raquo; Feed" href="https://emeryberger.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Emery Berger &raquo; Comments Feed" href="https://emeryberger.com/comments/feed/" />
+	<script type="text/javascript">
+		/* <![CDATA[ */
+		function addLoadEvent(func) {
+			var oldonload = window.onload;
+			if (typeof window.onload != 'function') {
+				window.onload = func;
+			} else {
+				window.onload = function () {
+					oldonload();
+					func();
+				}
+			}
+		}
+		/* ]]> */
+	</script>
+			<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s0.wp.com\/wp-content\/mu-plugins\/wpcom-smileys\/twemoji\/2\/72x72\/","ext":".png","svgUrl":"https:\/\/s0.wp.com\/wp-content\/mu-plugins\/wpcom-smileys\/twemoji\/2\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/s1.wp.com\/wp-includes\/js\/wp-emoji-release.min.js?m=1516999477h&ver=4.9.4"}};
+			!function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&&(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55357,56692,8205,9792,65039],[55357,56692,8203,9792,65039]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&&k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='all-css-0-1' href='https://s0.wp.com/_static/??-eJx9kNsOwiAMhl9IJEt0zgvjs3BoGJMCWVmmby9smcZDuCFt+b/2b/kcmQo+gU8cJxbdZKwnPkcVkBFaB4+vbK+Idvw/5uwNiA+QolA3tmQ/cumCec8JoxaauHFBCldrrcIIuY5RpKJA0FaAA8yyGjZbbSBlnLaYJbhXEYztNqiEfV6luvR6HSnjCEQsv2gnZKnP3qpcpor79UyLwY/KilruQ7KZpldQPq54aQ7ntjs13bEZnm54qeQ=?cssminify=yes' type='text/css' media='all' />
+<link rel='stylesheet' id='screen-css-1-1' href='https://s1.wp.com/wp-content/themes/pub/oxygen/style.css?m=1499391730h&cssminify=yes' type='text/css' media='screen' />
+<link rel='stylesheet' id='font-droid-sans-css'  href='https://fonts.googleapis.com/css?family=Droid+Sans&#038;ver=20120821' type='text/css' media='all' />
+<link rel='stylesheet' id='font-abel-css'  href='https://fonts.googleapis.com/css?family=Abel&#038;ver=20120821' type='text/css' media='all' />
+<link rel='stylesheet' id='all-css-6-1' href='https://s2.wp.com/_static/??-eJx9y0EOwjAMRNELYawAErBAnKUNJhgldlQnSnt7wq7ddDdfmoctg1cpJAXLhxIZ5jqizksgQRaPVpZI0LLXdPRmB1yJVCHHGlgMG78CFUNTz0ME7pdt7OFAClH9UFhlE/COA097dKIxaugzYH+t8o+e6eEu9+vp5tzZfX9mnle+?cssminify=yes' type='text/css' media='all' />
+<link rel='stylesheet' id='print-css-7-1' href='https://s0.wp.com/wp-content/mu-plugins/global-print/global-print.css?m=1465851035h&cssminify=yes' type='text/css' media='print' />
+<link rel='stylesheet' id='all-css-8-1' href='https://s1.wp.com/_static/??-eJx9jlEKwjAQRC9kXAKt1A/xLElIk5XNbsim2N5eBEVE6dfMwHswcK8mCPfIHcpiKi0JWQF5Rsa+Qc+xRIW6eJB1S5GPQfUA/y0XOgp71z5tD6+i3czksIFm15DTO/cslYCODEmS7/Ejvb7nARKJd/QEruViR3s6T6MdptsDJ+Feag==?cssminify=yes' type='text/css' media='all' />
+<script type='text/javascript' src='https://s1.wp.com/_static/??-eJyFztEKwjAMBdAfsquTiXsRv6XWOFKXtDbphn69HeiDMBQCgdzDJXZOBtmP5QJiQ517gfx4rybIxv4ChnDITqEh5A/2kRVYF0vxjCOYIpDdUG+16BpXXIqiBCIVraTfLyFPCPNfFkCT8zeTQfC5tJ7o2Hb9Yde3+24bXjRNW9I='></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://emeryberger.wordpress.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://s1.wp.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress.com" />
+<link rel="canonical" href="https://emeryberger.com/systems-lunch/" />
+<link rel='shortlink' href='https://wp.me/P5240p-3w' />
+<link rel="alternate" type="application/json+oembed" href="https://public-api.wordpress.com/oembed/?format=json&amp;url=https%3A%2F%2Femeryberger.com%2Fsystems-lunch%2F&amp;for=wpcom-auto-discovery" /><link rel="alternate" type="application/xml+oembed" href="https://public-api.wordpress.com/oembed/?format=xml&amp;url=https%3A%2F%2Femeryberger.com%2Fsystems-lunch%2F&amp;for=wpcom-auto-discovery" />
+<!-- Jetpack Open Graph Tags -->
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Systems Lunch" />
+<meta property="og:url" content="https://emeryberger.com/systems-lunch/" />
+<meta property="og:description" content="The UMass CS Systems Lunch talk series is Fridays at 12:00pm in room CS 142. Everyone interested in systems is welcome to attend. In addition to providing a free lunch and a chance for systems folk…" />
+<meta property="article:published_time" content="2014-09-18T20:02:15+00:00" />
+<meta property="article:modified_time" content="2017-12-06T21:35:58+00:00" />
+<meta property="og:site_name" content="Emery Berger" />
+<meta property="og:image" content="http://www.cs.umass.edu/~emery/ics.gif" />
+<meta property="og:locale" content="en_US" />
+<meta name="twitter:site" content="@wordpressdotcom" />
+<meta name="twitter:text:title" content="Systems Lunch" />
+<meta name="twitter:image" content="http://www.feedburner.com/fb/images/pub/feed-icon32x32.png?w=240" />
+<meta name="twitter:card" content="summary" />
+<meta property="article:publisher" content="https://www.facebook.com/WordPresscom" />
+<link rel="shortcut icon" type="image/x-icon" href="https://s2.wp.com/i/favicon.ico" sizes="16x16 24x24 32x32 48x48" />
+<link rel="icon" type="image/x-icon" href="https://s2.wp.com/i/favicon.ico" sizes="16x16 24x24 32x32 48x48" />
+<link rel="apple-touch-icon-precomposed" href="https://s0.wp.com/i/webclip.png" />
+<link rel='openid.server' href='https://emeryberger.wordpress.com/?openidserver=1' />
+<link rel='openid.delegate' href='https://emeryberger.wordpress.com/' />
+<link rel="search" type="application/opensearchdescription+xml" href="https://emeryberger.com/osd.xml" title="Emery Berger" />
+<link rel="search" type="application/opensearchdescription+xml" href="https://s1.wp.com/opensearch.xml" title="WordPress.com" />
+<meta name="theme-color" content="#ffffff" />
+	<style type="text/css">
+		#page {
+			background-color: #ffffff		}
+	</style>
+	<style>
+		html {
+			font-size: 18px;
+		}
+		h1, h2, h3, h4, h5, h6, dl dt, blockquote, blockquote blockquote blockquote, .site-title, .main-navigation a, .widget_calendar caption {
+			font-family: 'Droid Sans', sans-serif;
+		}
+		.error, .entry-title a, .entry-content a, entry-summary a, .main-navigation > div > ul > li > a, .widget a, .post-navigation a, #image-navigation a, .pingback a, .logged-in-as a, .more-articles .entry-title a:hover, .widget_flickr #flickr_badge_uber_wrapper a {
+			color: #0d7ed3;
+		}
+		a:hover, .comment-meta a, .comment-meta a:visited {
+			border-color: #0d7ed3;
+		}
+		a.read-more, a.read-more:visited, .pagination a:hover, .comment-navigation a:hover, button, html input[type="button"], input[type="reset"], input[type="submit"], #infinite-handle span {
+			background-color: #0d7ed3;
+		}
+	</style>
+		<style type="text/css">
+			.recentcomments a {
+				display: inline !important;
+				padding: 0 !important;
+				margin: 0 !important;
+			}
+
+			table.recentcommentsavatartop img.avatar, table.recentcommentsavatarend img.avatar {
+				border: 0px;
+				margin: 0;
+			}
+
+			table.recentcommentsavatartop a, table.recentcommentsavatarend a {
+				border: 0px !important;
+				background-color: transparent !important;
+			}
+
+			td.recentcommentsavatarend, td.recentcommentsavatartop {
+				padding: 0px 0px 1px 0px;
+				margin: 0px;
+			}
+
+			td.recentcommentstextend {
+				border: none !important;
+				padding: 0px 0px 2px 10px;
+			}
+
+			.rtl td.recentcommentstextend {
+				padding: 0px 10px 2px 0px;
+			}
+
+			td.recentcommentstexttop {
+				border: none;
+				padding: 0px 0px 0px 10px;
+			}
+
+			.rtl td.recentcommentstexttop {
+				padding: 0px 10px 0px 0px;
+			}
+		</style>
+		<meta name="application-name" content="Emery Berger" /><meta name="msapplication-window" content="width=device-width;height=device-height" /><meta name="msapplication-tooltip" content="Professor of Computer Science, UMass Amherst" /><meta name="msapplication-task" content="name=Subscribe;action-uri=https://emeryberger.com/feed/;icon-uri=https://s2.wp.com/i/favicon.ico" /><meta name="msapplication-task" content="name=Sign up for a free blog;action-uri=http://wordpress.com/signup/;icon-uri=https://s2.wp.com/i/favicon.ico" /><meta name="msapplication-task" content="name=WordPress.com Support;action-uri=http://support.wordpress.com/;icon-uri=https://s2.wp.com/i/favicon.ico" /><meta name="msapplication-task" content="name=WordPress.com Forums;action-uri=http://forums.wordpress.com/;icon-uri=https://s2.wp.com/i/favicon.ico" /><meta name="title" content="Systems Lunch | Emery Berger on WordPress.com" />
+<meta name="description" content="The UMass CS Systems Lunch talk series is Fridays at 12:00pm in room CS 142. Everyone interested in systems is welcome to attend. In addition to providing a free lunch and a chance for systems folks to meet and chat, Systems Lunch is an opportunity to hear exciting talks by visitors as well as to learn about projects&hellip;" />
+		<script type="text/javascript">
+		var __ATA_PP = { pt: 2, ht: 0, tn: 'oxygen', amp: false, siteid: 2694 };
+		var __ATA = __ATA || {};
+		__ATA.cmd = __ATA.cmd || [];
+		__ATA.criteo = __ATA.criteo || {};
+		__ATA.criteo.cmd = __ATA.criteo.cmd || [];
+		</script>
+		<script type="text/javascript" src="//s.pubmine.com/head.js" async></script><style type="text/css" id="syntaxhighlighteranchor"></style>
+<script type="text/javascript">
+	window.google_analytics_uacct = "UA-52447-2";
+</script>
+
+<script type="text/javascript">
+	var _gaq = _gaq || [];
+	_gaq.push(['_setAccount', 'UA-52447-2']);
+	_gaq.push(['_setDomainName', 'none']);
+	_gaq.push(['_setAllowLinker', true]);
+	_gaq.push(['_initData']);
+	_gaq.push(['_trackPageview']);
+
+	(function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(ga);
+	})();
+</script>
+</head>
+
+<body class="page-template page-template-full-width-page page-template-full-width-page-php page page-id-218 no-js mp6 customizer-styles-applied highlander-enabled highlander-light">
+<div id="page" class="hfeed site">
+		<header id="masthead" class="site-header" role="banner">
+		<hgroup>
+						<h1 class="site-title"><a href="https://emeryberger.com/" title="Emery Berger" rel="home">Emery Berger</a></h1>
+			<h2 class="site-description">Professor of Computer Science, UMass Amherst</h2>
+		</hgroup>
+
+		
+		
+		<nav role="navigation" class="site-navigation main-navigation clear-fix">
+			<h1 class="assistive-text">Main Menu</h1>
+			<div class="assistive-text skip-link"><a href="#content" title="Skip to content">Skip to content</a></div>
+
+			<div class="menu-the-menu-container"><ul id="menu-the-menu" class="menu"><li id="menu-item-116" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-has-children menu-item-116"><a href="https://emeryberger.com/">About</a>
+<ul class="sub-menu">
+	<li id="menu-item-117" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-117"><a href="https://emeryberger.com/home-page/bio-vita-and-contact-info/">Bio &amp; Contact</a></li>
+</ul>
+</li>
+<li id="menu-item-245" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-245"><a href="http://emeryblogger.com">Blog</a></li>
+<li id="menu-item-125" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-125"><a href="https://emeryberger.com/news/">News</a></li>
+<li id="menu-item-115" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-115"><a href="https://emeryberger.com/press/">Press</a></li>
+<li id="menu-item-123" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-123"><a href="https://emeryberger.com/publications/">Pubs</a></li>
+<li id="menu-item-107" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-107"><a href="https://emeryberger.com/research/">Research</a>
+<ul class="sub-menu">
+	<li id="menu-item-111" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-111"><a href="https://emeryberger.com/research/automan/">AutoMan</a></li>
+	<li id="menu-item-113" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-113"><a href="https://emeryberger.com/research/checkcell/">CheckCell</a></li>
+	<li id="menu-item-175" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-175"><a href="https://emeryberger.com/research/diehard/">DieHard</a></li>
+	<li id="menu-item-176" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-176"><a href="https://emeryberger.com/research/dieharder/">DieHarder</a></li>
+	<li id="menu-item-110" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-110"><a href="https://emeryberger.com/research/doppio/">Doppio</a></li>
+	<li id="menu-item-109" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-109"><a href="https://emeryberger.com/research/dthreads/">Dthreads</a></li>
+	<li id="menu-item-170" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-170"><a href="https://emeryberger.com/research/exterminator/">Exterminator</a></li>
+	<li id="menu-item-169" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-169"><a href="https://emeryberger.com/research/grace/">Grace</a></li>
+	<li id="menu-item-168" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-168"><a href="https://emeryberger.com/research/hound/">Hound</a></li>
+	<li id="menu-item-167" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-167"><a href="https://emeryberger.com/research/redline/">Redline</a></li>
+	<li id="menu-item-166" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-166"><a href="https://emeryberger.com/research/sheriff/">Sheriff</a></li>
+	<li id="menu-item-112" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-112"><a href="https://emeryberger.com/research/stabilizer/">Stabilizer</a></li>
+	<li id="menu-item-108" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-108"><a href="https://emeryberger.com/research/surveyman/">SurveyMan</a></li>
+</ul>
+</li>
+<li id="menu-item-104" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-104"><a href="https://emeryberger.com/software/">Software</a>
+<ul class="sub-menu">
+	<li id="menu-item-131" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-131"><a href="http://automan-lang.org">AutoMan</a></li>
+	<li id="menu-item-132" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-132"><a href="http://diehard-software.org/">DieHard</a></li>
+	<li id="menu-item-128" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-128"><a href="http://www.doppiojvm.org/">DoppioJVM</a></li>
+	<li id="menu-item-133" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-133"><a href="http://heaplayers.org">Heap Layers</a></li>
+	<li id="menu-item-103" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-103"><a href="http://www.hoard.org">Hoard</a></li>
+	<li id="menu-item-129" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-129"><a href="http://stabilizer-tool.org">Stabilizer</a></li>
+	<li id="menu-item-130" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-130"><a href="http://surveyman.org">SurveyMan</a></li>
+</ul>
+</li>
+<li id="menu-item-105" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-105"><a href="https://emeryberger.com/students/">Students</a>
+<ul class="sub-menu">
+	<li id="menu-item-447" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-447"><a target="_blank" href="https://bpowers.net/">Bobby Powers</a></li>
+	<li id="menu-item-134" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-134"><a href="http://people.cs.umass.edu/~dbarowy">Dan Barowy</a></li>
+	<li id="menu-item-137" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-137"><a href="http://people.cs.umass.edu/~jvilk">John Vilk</a></li>
+	<li id="menu-item-448" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-448"><a href="https://emeryberger.com/systems-lunch/">Alumni</a>
+	<ul class="sub-menu">
+		<li id="menu-item-136" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-136"><a target="_blank" href="http://www.cs.grinnell.edu/~curtsinger/">Charlie Curtsinger</a></li>
+		<li id="menu-item-449" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-449"><a target="_blank" href="https://www.linkedin.com/in/gene-novark-183a4b20">Gene Novark</a></li>
+		<li id="menu-item-450" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-450"><a target="_blank" href="http://www-cs.canisius.edu/~hertzm/">Matthew Hertz</a></li>
+		<li id="menu-item-451" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-451"><a target="_blank" href="https://www.linkedin.com/in/tingyang">Ting Yang</a></li>
+		<li id="menu-item-452" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-452"><a target="_blank" href="http://www.cs.utsa.edu/~tongpingliu/">Tongping Liu</a></li>
+	</ul>
+</li>
+</ul>
+</li>
+<li id="menu-item-122" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-122"><a href="https://emeryberger.com/teaching/">Teaching</a>
+<ul class="sub-menu">
+	<li id="menu-item-528" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-528"><a href="https://emeryberger.com/teaching/grad-systems/">Systems, Spring 2018</a></li>
+	<li id="menu-item-454" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-454"><a href="https://emeryberger.com/systems-for-data-science-compsci-590s/">Systems for Data Science (COMPSCI 590S)</a></li>
+	<li id="menu-item-455" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-455"><a href="https://emeryberger.com/systems-lunch/">Previous Semesters</a>
+	<ul class="sub-menu">
+		<li id="menu-item-284" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-284"><a href="https://emeryberger.com/teaching/empirical-methods/">Empirical Methods</a></li>
+		<li id="menu-item-342" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-342"><a href="https://emeryberger.com/teaching/hot-topics-in-pl-systems-fall-2015/">Hot Topics in PL &amp; Systems, Fall 2015</a></li>
+		<li id="menu-item-119" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-119"><a href="https://emeryberger.com/teaching/systems-fall2015/">Systems, Fall 2015</a>
+		<ul class="sub-menu">
+			<li id="menu-item-149" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-149"><a href="https://emeryberger.com/teaching/systems-fall2014/systems-project-1/">Project 1</a></li>
+		</ul>
+</li>
+	</ul>
+</li>
+</ul>
+</li>
+<li id="menu-item-106" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-106"><a href="https://emeryberger.com/video/">Video</a></li>
+</ul></div>		</nav>
+	</header><!-- #masthead .site-header -->
+
+	<div id="main" class="clear-fix">
+		<div id="primary" class="site-content full-width">
+			<div id="content" role="main">
+
+				
+					
+<article id="post-218" class="post-218 page type-page status-publish hentry">
+	<header class="entry-header">
+		<h1 class="entry-title">Systems Lunch</h1>
+	</header><!-- .entry-header -->
+
+	<div class="entry-content clear-fix">
+		<h2></h2>
+<table border="0" width="100%" cellspacing="8" cellpadding="8">
+<tbody>
+<tr>
+<td valign="top">The <strong>UMass CS Systems Lunch</strong> talk series is Fridays at <strong>12:00pm</strong> in room CS 142. Everyone interested in systems is welcome to attend. In addition to providing a free lunch and a chance for systems folks to meet and chat, <strong>Systems Lunch</strong> is an opportunity to hear exciting talks by visitors as well as to learn about projects going on in the College.</p>
+<table>
+<tbody>
+<tr>
+<td valign="top"><a title="Subscribe to my feed" href="http://feeds.feedburner.com/UMassCSSystemsLunch" rel="alternate"><img src="https://i0.wp.com/www.feedburner.com/fb/images/pub/feed-icon32x32.png" alt="" /></a>   <a title="Subscribe to iCal feed" href="http://www.google.com/calendar/ical/vhpdhfd5p769gcjf7feck773bk%40group.calendar.google.com/public/basic.ics"><img src="https://i1.wp.com/www.cs.umass.edu/~emery/ics.gif" alt="" width="32" height="32" /></a></td>
+</tr>
+<tr>
+<td colspan="2"><span style="color:red;"><span style="color:red;"><strong>Information for visitors:</strong> The UMass CS building is at <a href="http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=140+Governors+Drive,+Amherst+MA&amp;sll=42.395588,-72.531095&amp;sspn=0.003478,0.008111&amp;ie=UTF8&amp;hq=&amp;hnear=Governors+Dr,+Amherst+Center,+Hampshire,+Massachusetts&amp;ll=42.39539,-72.53103&amp;spn=0.003478,0.008111&amp;t=h&amp;z=17">140 Governors Drive, Amherst, MA</a>. Please park in <a href="http://parking.umass.edu/images/maps/mapvisitorparking.pdf">lot 31</a>, directly across Governors Drive from the school. There are metered spaces; your host can provide you with a parking permit. <a href="http://www.umass.edu/visitorsctr/Directions_to_Campus/">Directions to campus</a>; a <a href="http://brenocon.com/umass_cs_directions.pdf">convenient PDF</a> with driving and walking directions.</span></span></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td valign="top"><iframe src="https://www.google.com/calendar/embed?src=vhpdhfd5p769gcjf7feck773bk%40group.calendar.google.com&#038;ctz=America/New_York" frameborder="0" marginheight="0" marginwidth="0" style="width:400px;height:300px"></iframe></td>
+</tr>
+<tr>
+<td colspan="2">November 10, 2017</p>
+<p><b>The Beauty and the Beast &#8211; from Fortress to Julia </b>[<b><a href="http://www.cs.umass.edu/~emery/systems-lunch/2017/Beauty-and-the-Beast-Jan-Vitek.pdf" target="_blank" rel="noopener">talk slides</a></b>]<br />
+<b>Speaker: </b><a href="http://janvitek.org/">Jan Vitek</a></p>
+<p>Take two languages, Julia and Fortress, designed to solve the same problem with the same mechanisms and compare the approaches that lead one to being adopted by a growing number of domain scientists and the other discontinued. Can the two designs be reconciled? Can we somehow turn the beast that is into the beauty that could have been?</p>
+<p>This talk is a snapshot of our investigations into Julia with more open questions than definitive answers. Together, we will review the language&#8217;s design, a pragmatic effort driven by use-cases. In contrast, Fortress followed a more principled, formally grounded, approach that aimed for type soundness rather than adoption. We will marvel at the efficacy of Julia&#8217;s compiler &#8212; a one-trick pony that happens to work in practice. In comparison, Fortress was limited to a JVM-based interpreter with no clear path to high-performance. The last portion of the talk will be devoted to our study of the multi-dispatch feature of Julia and in particular of the subtype relation that is at its heart.</p>
+<p>This talk will feature code and reduction rules. Audience interaction appreciated.</p>
+<p><b>Bio:</b></p>
+<p>Jan Vitek loves to engineer software, sometimes teaches software engineering, often hacks single-file LaTeX documents, always complains about Git, and never used Coq. He is partly to blame for the artifact evaluation process in SIGPLAN conferences. He has an office at Northeastern University.</p>
+<hr />
+</td>
+</tr>
+<tr>
+<td colspan="2">November 3, 2017</p>
+<p><b>Design by Introspection using the D Language </b>[<b><a href="http://www.cs.umass.edu/~emery/systems-lunch/2017/Design-by-Introspection-Andrei-Alexandrescu.pdf" target="_blank" rel="noopener">talk slides</a></b>]<br />
+<b>Speaker: </b><a href="http://erdani.com">Andrei Alexandrescu</a> (Vice President, D Language Foundation)</p>
+<p>Years ago, D started modestly as an improved offering in the realm of systems programming languages, sharing a good deal of philosophy with C and C++. With time, however, D became a very distinct language with unique features (and, of course, its own mistakes).</p>
+<p>One angle of particular interest has been D&#8217;s ability to perform compile-time introspection. Artifacts in a D program can be &#8220;looked at&#8221; during compilation. Coupled with a full-featured compile-time evaluation engine and with an ability to generate arbitrary code during compilation, this has led to a number of interesting applications.</p>
+<p>This talk shares early experience with using these features of the D language. Design by Introspection is a proposed programming paradigm that assembles designs by performing introspection on components during compilation.</p>
+<p><b>Bio:</b></p>
+<p>Andrei Alexandrescu is a researcher, software engineer, and author. He wrote three best-selling books on programming (Modern C++ Design, C++ Coding Standards, and The D Programming Language) and numerous articles and papers on wide-ranging topics from software engineering to language design to Machine Learning to Natural Language Processing. Andrei holds a PhD in Computer Science from the University of Washington and a BSc in Electrical Engineering from University &#8220;Politehnica&#8221; Bucharest. He is Vice President of the D Language Foundation. <a href="http://erdani.com" rel="nofollow">http://erdani.com</a></p>
+<hr />
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<div id="footer"></div>
+<div>Friday, October 19 2017</div>
+<div></div>
+<div>
+<div>
+<div>
+<div><strong>Rust: Systems Programming for All  </strong>[<strong><b><a href="http://www.cs.umass.edu/~emery/systems-lunch/2017/Systems-Programming-for-All-Niko-Matsakis.pdf" target="_blank" rel="noopener">talk slides</a></b></strong>]<span style="font-family:inherit;font-size:inherit;"> </span></div>
+</div>
+</div>
+<p><strong><a href="http://smallcultfollowing.com/babysteps/">Nicholas Matsakis</a> (Mozilla Research)<br />
+</strong></p>
+</div>
+<div>
+<div>
+<div></div>
+<div>Rust is a new systems-programming language that is becoming increasingly popular. It aims to combine C++&#8217;s focus on zero-cost abstractions with numerous ideas that emerged first in academia, most notably affine and region types (&#8216;ownership and borrowing&#8217;) and Haskell&#8217;s type classes (&#8216;traits&#8217;). One of the key goals for Rust is that it it can be used as a &#8216;drop-in&#8217; replacement for C or C++: it does not require a runtime or garbage collector, and you can even choose to forego the standard library. In this talk, I&#8217;ll give a brief overview of the core concepts that are the heart of Rust. I&#8217;ll talk about the same core concepts that allow us to avoid a garbage collector *also* turn out to support efficient and data-race-free parallel programming. I&#8217;ll also touch on some of our experiences at Mozilla, where we have been replacing large chunks of Firefox&#8217;s C++ code with Rust.</div>
+<div></div>
+<div><strong>Bio:</strong></div>
+<div></div>
+<div>Nicholas Matsakis is a senior researcher at Mozilla Research and a member of the Rust core team. He has been working on Rust since 2011 and did much of the initial work on its type system and other core features.  He did his undergraduate study at MIT, graduating in 2001, and later obtained a PhD in 2011, working with Thomas Gross at ETH Zurich. He also spent several years at DataPower Technology, a startup since acquired by IBM, working on the JIT compiler and networking runtime.</div>
+</div>
+<div></div>
+<div>
+<hr />
+</div>
+</div>
+<p>Past Systems Lunch talks:</p>
+<table border="0" width="100%" cellspacing="2" cellpadding="4">
+<tbody>
+<tr>
+<td valign="top" width="100">Tuesday, December 13, 2016</td>
+<td valign="top">Speaker: <a href="http://www.shokri.org"><strong>Reza Shokri</strong></a> (Cornell)<br />
+Host: <a href="http://www.cs.umass.edu/~amir">Amir Houmansadr</a><br />
+Title: <strong>Membership Inference and Privacy in Machine Learning<br />
+</strong><br />
+In this talk, I will present our approach for investigating how machine learning models leak information about the individual data records on which they were trained. My focus will be on the fundamental membership inference attack: given a data record and black-box access to a model, determine if the record was in the model’s training dataset. I will demonstrate how to build a successful inference attack on different classification models e.g., trained by commercial “machine learning as a service” providers such as Google and Amazon.<strong><br />
+Bio:</strong>Reza Shokri is a postdoctoral researcher at Cornell University. His research focuses on data and computational privacy for a variety of applications, from location-based services and recommender systems to web search and machine learning. His work on quantifying location privacy was recognized as a runner-up for the annual Award for Outstanding Research in Privacy Enhancing Technologies (PET Award). Recently, he has focused on privacy-preserving generative models for synthetic data, and privacy in machine learning. More information: <a href="http://www.shokri.org">www.shokri.org</a></td>
+</tr>
+<tr>
+<td valign="top" width="100">Monday, November 7, 2016</td>
+<td valign="top">Speaker: <strong>Gilles Muller</strong> (INRIA)<br />
+Host: <a href="http://www.emeryberger.com">Emery Berger</a><br />
+Title: <strong><strong>Safe multicore scheduling in a Linux cluster environment</strong></strong>Modern clusters rely on servers containing dozens of cores that have high infrastructure cost and energy consumption. Therefore, it is economically essential to exploit their full potential at both the application and the system level. While today&#8217;s clusters typically rely on Linux, recent research shows that the Linux scheduler suffers from performance bugs that lead to core under-usage. The consequences are wasted energy, bad infrastructure usage, and lower service response time.The fundamental source of such performance bugs is that the Linux scheduler, being monolithic, has become too complex. In this talk, we present ongoing work on the Ipanema project that proposes to switch to set of simple schedulers, each tailored to a specific application. Our vision raises scientific challenges in terms of easily developing schedulers and proving them safe. The key to our approach is designing a Domain-Specific Language for multicore kernel scheduling policy development, associated verification tools and a Linux run-time system.</td>
+</tr>
+<tr>
+<td valign="top" width="100">Monday, October 24, 2016</td>
+<td valign="top">Speaker: <strong><a href="http://cs.brown.edu/~kraskat/">Tim Kraska</a></strong> (Brown)<br />
+Host: <a href="https://people.cs.umass.edu/~miklau/">Gerome Miklau</a><br />
+Title: <strong>Interactive Data Science</strong><br />
+Unleashing the full potential of Big Data requires a paradigm shift in the algorithms and tools used to analyze data towards more interactive systems with highly collaborative and visual interfaces. Ideally, a data scientist and a domain expert should be able to make discoveries together by directly manipulating, analyzing and visualizing data on the spot, instead of having week-long forth-and-back interactions between them. Current systems, such as traditional databases or more recent analytical frameworks like Hadoop or Spark, are ill-suited for this purpose. They were not designed to be interactive nor to support the special requirements of visual data exploration. Similarly, most machine learning algorithms are not able to provide initial answers at &#8220;human speed&#8221; (i.e., sub-seconds), nor are existing methods sufficient to convey the impact of the various risk factors, such as caused by incompleteness within the data or (implicit) multi-hypothesis testing.In this talk, I will present our vision of a new approach for conducting interactive exploratory analytics and explain why integrating the aforementioned features requires a complete rethinking of the full analytics stack from the interface to the “guts&#8221;. I will present recent results towards this vision including our novel interface, analytical engine and index structure, and outline what challenges are still ahead of us.<strong><br />
+BIO:</strong>Tim Kraska is an Assistant Professor in the Computer Science department at Brown University. Currently, his research focuses on Big Data management systems for modern hardware and new types of workloads, especially interactive analytics. Before joining Brown, Tim spent 3 years as a PostDoc in the AMPLab at UC Berkeley, where he worked on hybrid human-machine database systems and cloud-scale data management systems. Tim received his PhD from the ETH Zurich under the supervision of Donald Kossmann. He was awarded an NSF Career Award (2015), an Airforce Young Investigator award (2015), a Swiss National Science Foundation Prospective Researcher Fellowship (2010), a DAAD Scholarship (2006), a University of Sydney Master of Information Technology Scholarship for outstanding achievement (2005), the University of Sydney Siemens Prize (2005), two VLDB best demo awards (2015 and 2011), and an ICDE best paper award (2013).</td>
+</tr>
+<tr>
+<td valign="top" width="100">Monday, October 3, 2016</td>
+<td valign="top">Speakers: <strong><a href="http://www.ics.uci.edu/~guoqingx/">Harry Xu</a></strong> (UC-Irvine)<br />
+Host: <a href="https://emeryberger.com/">Emery Berger</a><br />
+Title: <strong><strong>Marrying Generational GC and Region Techniques for High-Throughput, Low-Latency Big Data Memory Management</strong></strong>Most “Big Data” systems are written in managed languages such as Java, C#, or Scala. These systems suffer from severe memory problems due to massive volumes of objects created to process input data. Allocating and deallocating a sea of data objects puts a severe strain on existing garbage collectors (GC), leading to high memory management overhead and reduced performance. We have developed a series of techniques at UC Irvine to tackle this problem. In this talk, I will first talk about Facade (ASPLOS&#8217;15), a compiler and runtime system that can statically bound the number of data objects created in the heap. Next, I will talk about our recent work on Yak (OSDI&#8217;16), a new hybrid garbage collector that splits the managed heap into a control and a data space, and uses a generational GC and a region-based technique to manage them, respectively.<strong>BIO:</strong>Guoqing (Harry) Xu is an assistant professor at UC Irvine. He is broadly interested in program languages and (distributed, operating, and runtime) systems. His recent interests center on (1) how to exploit language/compiler techniques to build scalable Big Data systems and (2) how to build Big Data systems to parallelize and scale sophisticated program analyses. He publishes broadly in PL, systems, and SE conferences such as SOSP/OSDI, ASPLOS, PLDI, and OOPSLA and is an author of several papers awarded or nominated for distinguished paper awards.</td>
+</tr>
+<tr>
+<td valign="top" width="100"><b>Friday</b>, September 30, 2016</td>
+<td valign="top">Speakers: <strong><a href="http://jpolitz.github.io/">Joe Gibbs Politz</a></strong> (Swarthmore/UCSD) and <strong><a href="http://www.ccs.neu.edu/home/blerner/">Ben Lerner</a></strong> (Northeastern University)<br />
+Host: <a href="https://people.cs.umass.edu/~arjun/home/">Arjun Guha</a><br />
+Title: <strong><strong>Pyret: Language Design for #CS4All</strong></strong>Computer science for all requires that computing education simultaneously achieve equity, rigor, and scale. Bootstrap (www.bootstrapworld.org) integrates computing education with disciplines like math, physics, and data science, while also supporting traditional computer science curricula. These interdisciplinary curricula enable equitable access and success in both subjects for all students in grades 6-16.In this talk, we discuss how the Pyret programming language (www.pyret.org), which is the host language for new Bootstrap curricula, supports these efforts. Its design has been informed by the How to Design Programs computing curriculum, a scaffolded, rigorous, multi-representational technique for program design. We discuss the technical challenges induced by making it run on stock Web browsers on commodity machines. We also present novel features in the language to support both data processing and reactive computation, which make curricula both outward-looking and engaging to a broad student population. Finally, as a full-featured language with a traditional syntax and semantics, these multiple entrypoints into Pyret lead to an authentic programming experience for students.<strong>BIOS:</strong>Joe Gibbs Politz is starting as an Assistant Teaching Professor of computer science at UC San Diego in January of 2017.  Previously, he taught at Swarthmore College and received his PhD from Brown University.  He studies programming languages, computer science education, and Web programming.Benjamin Lerner is a lecturer at Northeastern University&#8217;s College of Computer and Information Sciences. He earned his undergraduate degree at Yale University and achieved his PhD at the University of Washington in Seattle. He is currently developing Pyret, a new programming language aimed at teaching introductory programming. In the past, Prof. Lerner worked for Microsoft and MSR, and has taught for several summers at the Johns Hopkins Center for Talented Youth Program.</td>
+</tr>
+<tr>
+<td valign="top" width="100">November 2, 2015</td>
+<td valign="top">Speaker: <a href="http://cs-people.bu.edu/heilman/"><strong>Ethan Heilman</strong></a> (Boston University)<br />
+Host: <a href="https://people.cs.umass.edu/~amir/">Amir Houmansadr</a><br />
+Title: <a><strong>Eclipse Attacks on Bitcoin’s Peer-to-Peer Network</strong></a>We present eclipse attacks on bitcoin&#8217;s peer-to-peer<br />
+network. Our attack allows an adversary controlling a sufficient<br />
+number of IP addresses to monopolize all connections to and from a<br />
+victim bitcoin node. The attacker can then exploit the victim for<br />
+attacks on bitcoin&#8217;s mining and consensus system, including<br />
+N-confirmation double spending, selfish mining, and adversarial forks<br />
+in the blockchain. We take a detailed look at bitcoin’s peer-to-peer<br />
+network, and quantify the resources involved in our attack via<br />
+probabilistic analysis, Monte Carlo simulations, measurements and<br />
+experiments with live bitcoin nodes. Finally, we present<br />
+countermeasures, inspired by botnet architectures, that are designed<br />
+to raise the bar for eclipse attacks while preserving the openness and<br />
+decentralization of bitcoin’s current network architecture.Project Website: <a href="http://cs-people.bu.edu/heilman/eclipse/">http://cs-people.bu.edu/heilman/eclipse/</a><b>Bio:<br />
+</b>Ethan Heilman is a PhD student in <a href="http://www.bu.edu/cs/">Boston University&#8217;s Computer Science Department</a> and a member of the security research group <a href="http://www.bu.edu/cs/busec/">BUSec</a>. He is advised by <a href="http://www.cs.bu.edu/~goldbe/">Sharon Goldberg</a>, and has done research on novel attacks on hash functions, differential cryptanalysis, Intelligent Transit Systems and cache based side channel attacks. He <a href="http://ehash.iaik.tugraz.at/wiki/Spectral_Hash">broke the SHA3 contestant Spectral Hash</a>. His current focus is on the RPKI and Bitcoin.Prior to graduate school, Ethan worked as a software engineer at the <a href="http://www.broadinstitute.org/">Broad Institute</a> where he wrote microbial bioinformatics annotation software. He also worked as a software developer at two successful startups, <a href="http://pubget.com/">Pubget</a> and <a href="http://jumptap.com/">Jumptap</a>. In his free time, he writes games, experiments with web application technology, and <a href="http://ethanheilman.tumblr.com/">blogs about security</a>.</td>
+</tr>
+<tr>
+<td valign="top" width="100">October 19, 2015</td>
+<td valign="top">Speaker: <a href="//www.cs.tufts.edu/~remco"><strong>Remco Chang</strong></a> (Tufts)<br />
+Host: <a href="http://people.cs.umass.edu/~ameli/">Alexandra Meliou</a><br />
+Title: <a><strong>Big Data Visual Analytics: A User-Centric Approach</strong></a>Modern visualization systems often assume that the data can fit within the computer&#8217;s memory. With such an assumption, visualizations can quickly slice and dice the data and help the users examine and explore the data in a wide variety of ways. However, in the age of Big Data, the assumption that data can fit within memory no longer applies. One critical challenge in designing visual analytics systems today is therefore to allow the users to explore large and remote datasets at an interactive rate. In this talk, I will present our research in approaching this problem in a user-centric manner. In the first half of the talk, I will present preliminary work with the database group at MIT on developing a big data visualization system based on the idea of predictive prefetching and precomputation. In the second half of the talk, I will present mechanisms and approaches for performing prefetching that are based on user&#8217;s past interaction histories and their perceptual abilities.<b><br />
+Bio:</b><br />
+Remco Chang is an Assistant Professor in the Computer Science Department at Tufts University. He received his BS from Johns Hopkins University in 1997 in Computer Science and Economics, MSc from Brown University in 2000, and PhD in computer science from UNC Charlotte in 2009. Prior to his PhD, he worked for Boeing developing real-time flight tracking and visualization software, followed by a position at UNC Charlotte as a research scientist. His current research interests include visual analytics, information visualization, and human-computer interactions. His research has been funded by NSF, DHS, MIT Lincoln Lab, and Draper. He has had best paper, best poster, and honorable mention awards at InfoVis, VAST, CHI, and VDA. He is currently an associated editor of the ACM Transactions on Interactive Intelligent Systems (TiiS) and the Human Computation journals, and he has been a PC and in organizational roles in leading conferences such as InfoVis, VAST, and CHI. He received the NSF CAREER Award in 2015.</td>
+</tr>
+<tr>
+<td valign="top" width="100">September 28, 2015</td>
+<td valign="top">Speaker: <a href="https://www3.cs.stonybrook.edu/~porter/"><strong>Don Porter</strong></a> (Stonybrook)<br />
+Host: <a href="http://www.emeryberger.org/">Emery Berger</a><br />
+Title: <a><strong>BetrFS: Write-Optimization in a Kernel File System</strong></a>Write-optimized data structures (WODS) are a promising building<br />
+block for storage systems because they have the potential<br />
+to strictly dominate the performance of B-trees and other common<br />
+on-disk data structures. In particular, WODS can dramatically improve<br />
+performance of both small, random writes and large, sequential scans.<br />
+This talk will introduce the basics of WODS, including the B<sup>ε</sup><br />
+tree, and then will describe BetrFS, the first in-kernel file system<br />
+built with a WODS. This work contributes a combination of<br />
+kernel-level techniques to leverage write-optimization in the<br />
+VFS layer and data structure-level enhancements to meet the<br />
+requirements of a POSIX-style file system. BetrFS outperforms<br />
+widely-used file systems, such as ext4 and xfs, on many benchmarks,<br />
+sometimes by orders of magnitude.The BetrFS project is an ongoing effort by an increasingly large team of contributors from Stony Brook, Rutgers, MIT, and Tokutek/Percona.More information, including source code, is available at <a href="http://betrfs.org">betrfs.org</a>.<b>Bio:</b><br />
+Don Porter is an Assistant Professor and Kieburtz Young Scholar of<br />
+Computer Science at Stony Brook University. Porter&#8217;s research<br />
+interests broadly involve improving efficiency and security of<br />
+computer systems. Porter earned a Ph.D. and M.S. from The University<br />
+of Texas at Austin, and a B.A. from Hendrix College. He has received<br />
+awards including the NSF CAREER Award and the Bert Kay Outstanding<br />
+Dissertation Award from UT Austin.</td>
+</tr>
+<tr>
+<td valign="top" width="100">April 27, 2015</td>
+<td valign="top">Speaker: <a href="http://brynosaurus.com/"><strong>Bryan Ford</strong></a> (Yale/EPFL)<br />
+Host: <a href="http://www.emeryberger.org/">Emery Berger</a><br />
+Title: <a><strong>Warding off timing attacks in Deterland<br />
+</strong></a>The massive parallelism and resource sharing embodying today’s cloud business model not only exacerbate the security challenge of timing channels, but also undermine the viability of defenses based on resource partitioning. This paper proposes hypervisor-enforced timing mitigation to control timing channels in cloud environments. This approach closes “reference clocks” internal to the cloud by imposing a deterministic view of time on guest code, and uses timing mitigators to pace I/O and rate-limit potential information leakage to external observers. Our prototype hypervisor implementation is the first system that can mitigate timing-channel leakage across full-scale existing operating systems such as Linux and applications written in arbitrary languages. Mitigation incurs a varying performance cost, depending on workload and tunable leakage-limiting parameters, but this cost may be justified for security-critical cloud applications and data.<b>Bio:</b><br />
+Bryan Ford currently leads the Decentralized/Distributed Systems (DeDiS) research group at Yale University, but will be moving to EPFL in Lausanne, Switzerland in July 2015. Ford&#8217;s work focuses broadly on building secure systems, touching on many particular topics including secure and certified OS kernels, parallel and distributed computing, privacy-preserving technologies, and Internet architecture. He has received the Jay Lepreau Best Paper Award at OSDI, and multiple grants from NSF, DARPA, and ONR, including the NSF CAREER award. His pedagogical achievements include PIOS, the first OS course framework leading students through development of a working, native multiprocessor OS kernel. Prof. Ford earned his B.S. at the University of Utah and his Ph.D. at MIT, while researching topics including mobile device naming and routing, virtualization, microkernel architectures, and touching on programming languages and formal methods.</td>
+</tr>
+<tr>
+<td valign="top" width="100">Dec. 8, 2014</td>
+<td valign="top">Speaker: <a href="http://jeanyang.com/"><strong>Jean Yang</strong></a> (MIT)<br />
+Host: <a href="http://www.emeryberger.com/">Emery Berger</a><br />
+Title: <a><strong>A Language for Automatically Enforcing Information Flow Policies<br />
+</strong></a><br />
+It is increasingly important for applications to protect sensitive data. Unfortunately, privacy and security policies for information flow are difficult to manage because of their global nature. We propose a policy-agnostic programming model in which the programmer implements information flow policies separately from the other functionality. In this talk, I describe Jeeves, a programming language for automatically enforcing information flow policies. In Jeeves, the programmer associates information flow policies with sensitive data and relies on the runtime to propagate the policies. Policies may talk about the program state and the output channel; the runtime guarantees that values may flow to viewers only if the policies permit. We have formalized the dynamic semantics of Jeeves, proven a non-interference guarantee, and implemented Jeeves as embeddings in Scala and Python. I will describe the Jeeves programming model, our recent focus on building a Jeeves web framework, and our experiences deploying an application written using our web framework. By shifting more responsibility to the language runtime and web framework, Jeeves reduces opportunities for programmer errors that lead to information leaks.<b>Bio:</b><br />
+Jean Yang is a final-year Ph.D. student at MIT, advised by Armando Solar-Lezama. Her Ph.D. thesis is on Jeeves, a language for automatically enforcing information flow policies for security and privacy. She graduated from Harvard University in 2008. Her work on verifying the Verve operating system won Best Paper Award at PLDI in 2009. In 2009 she started Graduate Women at MIT, an institute-wide group that now has two annual conferences, a mentoring program, and over 1800 members.</td>
+</tr>
+<tr>
+<td valign="top" width="100">Nov. 25, 2014</td>
+<td valign="top">Speaker: <a href="http://software.imdea.org/people/anindya.banerjee/"><strong>Anindya Banerjee</strong></a><br />
+IMDEA / NSF<br />
+Host: <a href="http://people.cs.umass.edu/~immerman/">Neil Immerman</a><br />
+Title: <a><strong>Modular Reasoning for Behavior-Preserving Data Structure Refactorings<br />
+</strong></a><br />
+A properly encapsulated data structure can be revised for refactoring without affecting the behaviors of clients of the data structure. Encapsulation ensures that clients are &#8220;representation independent&#8221;, that is, they are independent of particular choices of data structure representations. Modular reasoning about data structure revisions in heap-manipulating programs, however, is a challenge because encapsulation in the presence of shared mutable objects is difficult to ensure for a variety of reasons:(a) Pointer aliasing can break encapsulation and invalidate data structure invariants.<br />
+(b) Representation independence (RI) is nontrivial to guarantee in a generic manner, without recourse to specialized disciplines such as ownership.<br />
+(c) Mechanical verification of RI using theorem provers is nontrivial because it requires relational reasoning between two different data structure representations. Such reasoning lies outside the scope of most modern verification tools.We address these challenges by reasoning in Region Logic (RL), a Hoare logic augmented with state dependent “modifies” specifications based on simple notations for object sets, termed &#8220;regions&#8221;. RL uses ordinary first order logic assertions to support local reasoning and also the hiding of invariants on encapsulated state, in ways suited to verification using SMT solvers. By using relational assertions, the logic can reason about behavior-preservation of data structure refactorings, even in settings where full functional pre/post specifications are absent. The key ingredient behind such reasoning is a new proof rule that embodies representation independence.A verifier based on the non-relational part of RL has been used in the verification of implementations of the Observer and Composite design patterns and their clients. We further expect RL to be useful in proving noninterference style properties in the context of information flow security.<em><em>Work in progress with David A. Naumann and Mohammad Nikouei (Stevens Institute of Technology).</em></em><strong><br />
+Bio: </strong>Anindya Banerjee is currently Program Director in the CCF Division of the CISE Directorate at the National Science Foundation, where he participates in the Software and Hardware Foundations (SHF), REU Sites, and Cyberphysical Systems (CPS) programs and leads the Exploiting Parallelism and Scalability (XPS) program. He is on leave from the IMDEA Software Institute, Madrid, Spain, where he is full professor. Anindya&#8217;s research spans: Programming languages and program verification; High assurance concurrent, distributed and networked systems; Cyber-security, specifically the modular verification and certification of software systems against security policies; Program logics and semantics; Program analysis and abstract interpretation.</td>
+</tr>
+<tr>
+<td valign="top" width="100">Nov. 17, 2014</td>
+<td valign="top">Speaker: <strong>Tony Printezis</strong>, Twitter<br />
+Host: <a href="http://emeryberger.com">Emery Berger</a><br />
+Title: <strong>Use of the JVM at Twitter: a Bird&#8217;s Eye View<br />
+</strong>Twitter&#8217;s infrastructure consists of a large number of services which run on a variety of managed runtime systems, starting originally with Ruby, but moving to a mix of Scala and Java. Targeting the JVM allows developers at Twitter to quickly develop and deploy reliable code. Automated memory management, in particular, improves productivity tremendously, especially in a team-oriented and fast-paced environment.With these benefits, however, come some challenges, too. The way code is executed on the JVM makes it very difficult for developers to understand what has gone wrong and how to fix it when problems arise. Additionally, a lot of the profiling tools are not Scala-aware which sometimes makes their output challenging to interpret. Finally, the sheer volume of data that Twitter&#8217;s services handle every day, coupled with stringent latency requirements, stresses the JVM to its limits.The talk will cover:<br />
+&#8211; Overview of how services are deployed and monitored at Twitter.<br />
+&#8211; Challenges of the use of the JVM in an environment like Twitter.<br />
+&#8211; Benefits of using a custom build of the JVM, with features developed in-house.<strong>Bio:</strong> Tony Printezis is a member of the Performance / Core Runtime group (aka VM Team) in the Infrastructure organization at Twitter. He has over 15 years of (mainly Java) virtual machine implementation experience with special focus on memory management. Most of his projects have involved improving the performance, scalability, responsiveness, parallelism, concurrency, monitoring, and visualization of garbage collectors. He was one of the designers of (and tech lead of) the Garbage-First GC and the original implementer of the widely-used CMS GC.Before Twitter he worked at Adobe (on the eventually canceled next-generation Flash effort), the Java organization at Oracle and Sun Microsystems (where he contributed to the garbage collectors of the Java HotSpot virtual machine), and Sun Microsystems Laboratories (where he did garbage collection-related research). He holds a PhD and a BSc (Hons) in Computing Science, both from the University of Glasgow in Scotland. In his spare time he&#8217;s been known to carry unreasonably heavy camera equipment to take pictures of birds (of the big, aluminum / carbon fiber kind)&#8230; and he also cooks.</td>
+</tr>
+<tr>
+<td valign="top" width="100">Nov. 3, 2014</td>
+<td valign="top">Speaker: <strong><a href="http://people.csail.mit.edu/asolar/">Armando Solar-Lezama</a>, </strong>MIT<br />
+Host: <a href="http://www.cs.umass.edu/~emery">Emery Berger</a><br />
+Title: <strong>Constraint based synthesis beyond automated programming<br />
+</strong>This talk will describe how constraint-based synthesis can provide a unifying framework to attack problems as diverse as program optimization, automated grading, and the production of verified code. The talk will focus on the Sketch synthesis platform, and it will show how it can be applied to each of the aforementioned domains. For program optimization, synthesis allows us to raise the level of abstraction of a program, making it possible to apply aggressive optimizations that can even change the algorithmic complexity of a piece of code. In automated grading, synthesis allows us to improve upon the traditional method of grading programs based on a test suite by allowing us to determine the set of modifications needed to make the program correct. Finally, synthesis can aid the development of verified code by deriving code that is easier to prove correct.<b>Bio:</b> Armando Solar-Lezama is an associate professor at MIT where he leads the Computer Aided Programming Group. His research interests include software synthesis and its applications, as well as high-performance computing, information flow security and probabilistic programming.</td>
+</tr>
+<tr>
+<td valign="top" width="100">Oct. 27, 2014</td>
+<td valign="top">Speaker: <a href="http://www.eecs.harvard.edu/~greg/"><strong>Greg Morrisett</strong></a><br />
+Harvard University<br />
+Host: <a href="http://www.cs.umass.edu/~emery">Emery Berger</a><br />
+Title: <a><strong>Formalizing the x86</strong></a></p>
+<div></div>
+<div>A couple of years ago, Gang Tan and I set out to prove the correctness of the “checker” for Google’s Native Client, a service that allows native binary code to run in the context of the Chrome browser.  The checker is supposed to ensure a basic sandboxing policy on the code, so any bug could result in a major security vulnerability.</div>
+<div></div>
+<div>It turns out that proving the correctness of the checker wasn’t the hard part.  Rather, the correctness statement depends upon a model of execution for binary code, and building a faithful model of the x86 in something like Coq is er, “challenging” to say the least.  I’ll describe some of these challenges, how we tackled some of them, and what still remains.</div>
+</td>
+</tr>
+<tr>
+<td valign="top" width="100">Oct. 20, 2014</td>
+<td valign="top">Speaker: <a href="http://www.ccs.neu.edu/people/faculty/member/jan-vitek/"><strong>Jan Vitek</strong></a><br />
+Northeastern University<br />
+Host: <a href="http://www.cs.umass.edu/~emery">Emery Berger</a><br />
+Title: <a><strong>The Case for the Three R’s of Systems Research: Repeatability, Reproducibility and Rigor</strong></a></p>
+<div>
+<p>Computer systems research spans sub-disciplines that include embedded systems, programming languages, networking, and operating systems. In this talk, my contention is that a number of structural factors inhibit quality systems research. Symptoms of the problem include unrepeatable and unreproduced results as well as results that are either devoid of meaning or that measure the wrong thing. I will illustrate the impact of these issues on our research output with examples from the development and empirical evaluation of the Schism real-time garbage collection algorithm that is shipped with the FijiVM &#8212; a Java virtual machine for embedded and mobile devices.</p>
+</div>
+<div></div>
+<div>I will argue that our field should foster: repetition of results, independent reproduction, as well as rigorous evaluation. I will outline some baby steps taken by several computer conferences. In particular, I will focus on the introduction of Artifact Evaluation Committees or AECs to ECOOP, OOPLSA, PLDI and soon POPL. The goal of the AECs is to encourage authors to package the software artifacts that they used to support the claims made in their paper and to submit these artifacts for evaluation. AECs were carefully designed to provide positive feedback to the authors that take the time to create repeatable research.</div>
+</td>
+</tr>
+<tr>
+<td valign="top" width="100">Sept. 26, 2014<br />
+<em>3:00-4:00pm</em></td>
+<td valign="top">Speaker: <a href="https://www.cs.wisc.edu/~swift/"><strong>Mike Swift</strong></a><br />
+University of Wisconsin-Madison<br />
+Host: <a href="http://www.cs.umass.edu/~emery">Emery Berger</a><br />
+Title: <a><strong>New Interfaces to Storage-Class Memory</strong></a></p>
+<div></div>
+<div>Storage-class memory (SCM) technologies such as phase-change memory, spin-transfer torque MRAM, and memristers promise the performance and flexibility of DRAM with the persistence of flash and disk. In this talk, I will discuss two interfaces to persistent data stored in SCM.</div>
+<div></div>
+<div>First, I will talk about Mnemosyne, which is a system that exposes storage-class memory directly to applications in the form of persistent regions. With only minor hardware changes, Mnemosyne supports consistent in-place updates to persistent data structures and performance up to 10x faster than current storage systems.</div>
+<div></div>
+<div>Second, I will talk about how to build file systems for storage-class memory. While standard storage device rely on the operating system kernel for protected shared access, SCM can use virtual-memory hardware to protect access from user-mode programs. This enables application-specific customization of file system policies and interfaces I will describe the design of the Aerie file system for SCM, which provides flexible high-performance access to files.</div>
+</td>
+</tr>
+<tr>
+<td valign="top" width="100">Sept. 22, 2014</td>
+<td valign="top">Speaker: <strong>Guy Fedorkow</strong><br />
+Juniper Networks<br />
+Host: <a href="http://www.cs.umass.edu/~kurose">Jim Kurose</a><br />
+Title: <a><strong>High-Scale Routers for Internet Infrastructure</strong></a></td>
+</tr>
+<tr>
+<td valign="top" width="100">May 12, 2014</td>
+<td valign="top">Speaker: <a href="https://engineering.purdue.edu/~milind/"><strong>Milind Kulkarni</strong></a><br />
+Purdue University<br />
+Host: <a href="http://www.cs.umass.edu/~emery">Emery Berger</a><br />
+Title: <a><strong>Automatically enhancing locality in irregular applications</strong></a></p>
+<div></div>
+<div>Over the past several decades of compiler research, there have been great successes in automatically enhancing locality for regular programs, which operate over dense matrices and arrays. Tackling locality in irregular programs, which operate over pointer-based data structures such as trees and graphs, has been much harder, and has mostly been left to ad hoc, application specific methods. In this talk, I will describe efforts by my group to automatically improve locality in a particular class of irregular applications, those that traverse trees. The key insight behind our approach is an abstraction of data structure traversals as operations on vectors. This abstraction lets us design transformations, predict their behavior and determine their correctness. I will present two specific transformations we are developing, &#8220;point blocking&#8221; and &#8220;traversal splicing,&#8221; and show that they can deliver substantial performance improvements when applied to several real-world irregular kernels.</div>
+</td>
+</tr>
+<tr>
+<td valign="top" width="100">February 10, 2014</td>
+<td valign="top">Speaker: <a href="https://www.cs.cmu.edu/~clegoues/"><strong>Claire Le Goues</strong></a><br />
+Carnegie-Mellon University<br />
+Host: <a href="http://www.cs.umass.edu/~brun">Yuriy Brun</a><br />
+Title: <a><strong>Automatic Program Repair Using Genetic Programming</strong></a></p>
+<div>&#8220;Everyday, almost 300 bugs appear&#8230;far too many for only the Mozilla programmers to handle&#8221; &#8211;Mozilla developer, 2005</div>
+<div></div>
+<div>Software quality is a pernicious problem. Although 40 years of software engineering research has provided developers considerable debugging support, actual bug repair remains a predominantly manual, and thus expensive and time-consuming, process. I will describe GenProg, a technique that uses meta heuristic search strategies to automatically fix software bugs using only a program&#8217;s source code and existing test suite. My empirical evidence demonstrates that GenProg can quickly and cheaply fix a large proportion of real-world bugs in large open-source C programs. I will also briefly discuss the atypical search space of the automatic program repair problem, and the ways it has challenged assumptions about software defects and how to fix them.</div>
+</td>
+</tr>
+<tr>
+<td valign="top" width="100">November 4, 2013</td>
+<td valign="top">Speaker: <a href="http://sunset.usc.edu/~neno/"><strong>Nenad Medvidovic</strong></a><br />
+University of Southern California<br />
+Host: <a href="http://www.cs.umass.edu/~brun">Yuriy Brun</a><br />
+Title: <a><strong>Architectural Decay in Software Systems: Symptoms, Causes, and Remedies</strong></a></td>
+</tr>
+<tr>
+<td valign="top" width="100">October 21, 2013</td>
+<td valign="top">Speaker: <a href="http://www.srl.inf.ethz.ch/raychev.php"><strong>Veselin Raychev</strong></a><br />
+ETH-Zurich<br />
+Host: <a href="http://www.cs.umass.edu/~emery">Emery Berger</a><br />
+Title: <a><strong>EventRacer: Finding Concurrency Errors in Web Sites</strong></a></p>
+<div></div>
+<div>Like shared-memory multi-threaded programs, event-driven programs such as client-side web applications are susceptible to data races that are hard to reproduce and debug. Yet, these races may cause serious damage (e.g. JavaScript crashes, lost e-mails, broken UI).</div>
+<div></div>
+<div>Building a concurrency detector which can find harmful races in this setting is particularly challenging due to: i) heavy use of ad-hoc synchronization leading to an overwhelming number of false positives, ii) complex interaction between a large number of events which can render current analyzers impractical, and iii) a need to precisely capture the happens-before relation which is assembled from a diverse set of sources.</div>
+<div>In this talk, I will present EventRacer, a dynamic race detector that addresses these challenges and finds real bugs in web applications. We focus on the key points that made EventRaces possible.</div>
+<div></div>
+<div>We first present a scalable algorithm that uses graph connectivity based on chain-decomposition to find races in long executions. This algorithm significantly outperforms existing state-of-the-art detectors, in both space and time. We then define and show how to find uncovered races &#8212; a special class of races that are not affected by user-written ad-hoc synchronization. Uncovered races are key to reducing the number of false positives reported by the tool. We finally present an evaluation of our approach on a set of widely used websites, demonstrate that harmful races are widespread, and show how they could negatively affect user experience.</div>
+<div></div>
+<div>The full source, binary distributions and an online interface are available here:<br />
+<a href="http://www.eventracer.org/">http://www.eventracer.org/</a></div>
+</td>
+</tr>
+<tr>
+<td valign="top" width="100">September 30, 2013</td>
+<td valign="top">Speaker: <a href="http://www.cs.umass.edu/~arjun"><strong>Arjun Guha</strong></a><br />
+UMass Amherst<br />
+<b>Faculty Research Seminar: 12:30pm</b><br />
+Title: <a><strong>Programming Languages meets Programmable Networks</strong></a></td>
+</tr>
+<tr>
+<td valign="top" width="100">September 23, 2013</td>
+<td valign="top">Speaker: <a href="http://smallcultfollowing.com/babysteps/"><strong>Niko Matsakis</strong></a><br />
+Mozilla Research<br />
+Host: <a href="http://www.cs.umass.edu/~emery">Emery Berger</a><br />
+Title: <a><strong>Guaranteeing Memory Safety in Rust</strong></a></p>
+<div></div>
+<div>Rust is a new programming language targeting systems-level applications. Rust offers a similar level of control over performance to C++, but guarantees type soundness, memory safety, and data-race freedom. One of Rust&#8217;s distinguishing features is that, like C++, it supports stack allocation and does not require the use of a garbage collector.</div>
+<div></div>
+<div>This talk covers the basics of Rust. We show how Rust&#8217;s type system guarantees memory safety, and how these same techniques can be generalized to provide data-race freedom.</div>
+</td>
+</tr>
+<tr>
+<td valign="top" width="100">April 29, 2013</td>
+<td valign="top">Speaker: <a href="https://cs.nyu.edu/rgrimm/"><strong>Robert Grimm</strong></a><br />
+NYU<br />
+Host: <a href="http://www.cs.umass.edu/~emery">Emery Berger</a><br />
+Title: <a><strong>SuperC: Parsing All of C by Taming the Preprocessor</strong></a></td>
+</tr>
+<tr>
+<td valign="top" width="100">April 22, 2013</td>
+<td valign="top">Speaker: <a href="http://people.cs.umass.edu/~ramesh/Site/HOME.html"><strong>Ramesh Sitaraman</strong></a><br />
+University of Massachusetts<br />
+Title: <a><strong>The Billion Dollar Question in Online Videos: How Video Performance Impacts Viewer Behavior?</strong></a></td>
+</tr>
+<tr>
+<td valign="top" width="100">April 8, 2013</td>
+<td valign="top">Speaker: <a href="http://plasma.cs.umass.edu/emery/index.html"><strong>Rick Hudson</strong></a><br />
+Intel Corporation<br />
+Host: <a href="http://www.cs.umass.edu/~emery">Emery Berger</a><br />
+Title: <a><strong>River Trail: Adding Data Parallelism to JavaScript</strong></a></td>
+</tr>
+<tr>
+<td valign="top" width="100">December 10, 2012</td>
+<td valign="top">Speaker: <a href="http://mathcs.holycross.edu/~kwalsh/"><strong>Kevin Walsh</strong></a><br />
+Holy Cross<br />
+Host: <a href="http://www.cs.umass.edu/~emery">Emery Berger</a><br />
+Title: <a><strong>Authorization and Trust: Lessons from the Nexus Project</strong></a></td>
+</tr>
+<tr>
+<td valign="top" width="100">October 1, 2012</td>
+<td valign="top">Speaker: <a href="http://www.cs.umd.edu/~ben"><strong>Ben Shneiderman</strong></a><br />
+University of Maryland — College Park<br />
+Host: <a href="http://www.cs.umass.edu/~ljo">Lee Osterweil</a><br />
+Title: <a><strong>Information Visualization for Medical Informatics</strong></a></td>
+</tr>
+<tr>
+<td valign="top" width="100">September 17, 2012</td>
+<td valign="top">Speaker: <a href="http://www.cs.umass.edu/~ameli/"><strong>Alexandra Meliou</strong></a><br />
+UMass Amherst<br />
+Title: <a><strong>Reverse Engineering Data Transformations</strong></a></td>
+</tr>
+<tr>
+<td valign="top" width="100">February 13, 2012</td>
+<td valign="top">Speaker: <a href="http://www.cs.williams.edu/~freund/"><strong>Stephen Freund</strong></a><br />
+Williams College<br />
+Host: <a href="http://www.cs.umass.edu/~emery">Emery Berger</a><br />
+Title: <a><strong>Cooperative Concurrency for a Multicore World</strong></a></td>
+</tr>
+<tr>
+<td valign="top" width="100">November 22, 2011</td>
+<td valign="top">Speaker: <a href="http://research.microsoft.com/en-us/um/people/livshits/"><strong>Ben Livshits</strong></a><br />
+Microsoft Research<br />
+Host: <a href="http://www.cs.umass.edu/~emery">Emery Berger</a><br />
+Title: <a><strong>Finding Malware on a Web Scale</strong></a></td>
+</tr>
+<tr>
+<td valign="top" width="100">November 21, 2011</td>
+<td valign="top">Speaker: <a href="http://www.ccs.neu.edu/home/gene/"><strong>Gene Cooperman</strong></a><br />
+Northeastern University<br />
+Host: <a href="http://www.cs.umass.edu/~emery">Emery Berger</a><br />
+Title: <a><strong>Temporal Debugging via Flexible Checkpointing: Changing the Cost Model</strong></a></td>
+</tr>
+<tr>
+<td valign="top" width="100">November 7, 2011</td>
+<td valign="top">Speaker: <a href="http://research.yahoo.com/Sriram_Rao"><strong>Sriram Rao</strong></a><br />
+Yahoo! Research<br />
+Host: <a href="http://www.cs.umass.edu/~shenoy">Prashant Shenoy</a> (<em>sponsored by Yahoo!</em>)<br />
+Title: <a><strong>I-files: Handling Intermediate Data In Parallel Dataflow Graphs</strong></a></td>
+</tr>
+<tr>
+<td valign="top" width="100">October 3, 2011</td>
+<td valign="top">Speaker: <a href="https://domino.research.ibm.com/comm/research_people.nsf/pages/pfs.index.html"><strong>Peter Sweeney</strong></a><br />
+IBM TJ Watson<br />
+Host: <a href="http://www.cs.umass.edu/~emery">Emery Berger</a><br />
+Title: <a><strong>The State of Experimental Evaluation of Software and Systems in Computer Science</strong></a></td>
+</tr>
+<tr>
+<td valign="top" width="100">September 19, 2011</td>
+<td valign="top">Speakers: <a href="http://www.thlab.net/~diotc/"><strong>Christophe Diot</strong></a> and <a href="http://rp.lip6.fr/~teixeira/"><strong>Renata Teixeira</strong></a><br />
+Technicolor / CNRS and UPMC Sorbonne Universités<br />
+Host: <a href="http://www.cs.umass.edu/~kurose">Jim Kurose</a><br />
+Titles: <a><strong>Challenges in digital services delivery | Performance of Networked Applications</strong></a></td>
+</tr>
+<tr>
+<td valign="top" width="100"><strong>Thursday</strong>, September 15, 2011</td>
+<td valign="top">Speaker: <a href="http://www.cs.duke.edu/~chase/"><strong>Jeff Chase</strong></a><br />
+Duke University<br />
+Host: <a href="http://www.cs.umass.edu/~shenoy">Prashant Shenoy</a><br />
+Title: <a><strong>Trust in the Federation: Authorization for Multi-Domain Clouds</strong></a></td>
+</tr>
+<tr>
+<td valign="top" width="100">April 27, 2011</td>
+<td valign="top">Speaker: <a href="http://www.cs.washington.edu/homes/djg/"><strong>Dan Grossman</strong></a><br />
+University of Washington<br />
+Host: <a href="http://www.cs.umass.edu/~emery">Emery Berger</a><br />
+Title: <a><strong>Collaborating at the Hardware/Software Interface: A Programming-Languages Professor’s View</strong></a></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<p><span id="more-218"></span></p>
+<p><!--more--></p>
+<p><!--more--></p>
+<p><!--more--></p>
+<p><!--more--></p>
+<p><!--more--></p>
+<p><!--more--></p>
+<p><span style="color:#000000;font-family:'Courier New', Courier, monospace;font-size:13.63636302948px;line-height:normal;white-space:pre-wrap;"> </span></p>
+<div id="atatags-370373-5a8471a099a5c">
+        <script type="text/javascript">
+            __ATA.cmd.push(function() {
+                __ATA.initVideoSlot('atatags-370373-5a8471a099a5c', {
+                    sectionId: '370373',
+                    format: 'inread'
+                });
+            });
+        </script>
+    </div>		<div class="wpcnt">
+			<div class="wpa wpmrec">
+				<span class="wpa-about">Advertisements</span>
+				<div class="u">		<div style="padding-bottom:15px;width:300px;height:250px;float:left;margin-right:5px;margin-top:0px">
+		<div id="atatags-26942-5a8471a099afb">
+			<script type="text/javascript">
+			__ATA.cmd.push(function() {
+				__ATA.initSlot('atatags-26942-5a8471a099afb',  {
+					collapseEmpty: 'before',
+					sectionId: '26942',
+					width: 300,
+					height: 250
+				});
+			});
+			</script>
+		</div></div>		<div style="padding-bottom:15px;width:300px;height:250px;float:left;margin-top:0px">
+		<div id="atatags-114160-5a8471a099b33">
+			<script type="text/javascript">
+			__ATA.cmd.push(function() {
+				__ATA.initSlot('atatags-114160-5a8471a099b33',  {
+					collapseEmpty: 'before',
+					sectionId: '114160',
+					width: 300,
+					height: 250
+				});
+			});
+			</script>
+		</div></div></div>
+						<div id="crt-1609282909" style="width:300px;height:250px;display:none !important;"></div>
+		<script type="text/javascript">
+(function(){var c=function(){var a=document.getElementById("crt-1609282909");window.Criteo?(a.parentNode.style.setProperty("display","inline-block","important"),a.style.setProperty("display","block","important"),window.Criteo.DisplayAcceptableAdIfAdblocked({zoneid:388248,containerid:"crt-1609282909",collapseContainerIfNotAdblocked:!0,callifnotadblocked:function(){a.style.setProperty("display","none","important");a.style.setProperty("visbility","hidden","important")}})):(a.style.setProperty("display","none","important"),a.style.setProperty("visibility","hidden","important"))};if(window.Criteo)c();else{if(!__ATA.criteo.script){var b=document.createElement("script");b.src="//static.criteo.net/js/ld/publishertag.js";b.onload=function(){for(var a=0;a<__ATA.criteo.cmd.length;a++){var b=__ATA.criteo.cmd[a];"function"===typeof b&&b()}};(document.head||document.getElementsByTagName("head")[0]).appendChild(b);__ATA.criteo.script=b}__ATA.criteo.cmd.push(c)}})();
+		</script>		<div id="crt-1048182286" style="width:300px;height:250px;display:none !important;"></div>
+		<script type="text/javascript">
+(function(){var c=function(){var a=document.getElementById("crt-1048182286");window.Criteo?(a.parentNode.style.setProperty("display","inline-block","important"),a.style.setProperty("display","block","important"),window.Criteo.DisplayAcceptableAdIfAdblocked({zoneid:837497,containerid:"crt-1048182286",collapseContainerIfNotAdblocked:!0,callifnotadblocked:function(){a.style.setProperty("display","none","important");a.style.setProperty("visbility","hidden","important")}})):(a.style.setProperty("display","none","important"),a.style.setProperty("visibility","hidden","important"))};if(window.Criteo)c();else{if(!__ATA.criteo.script){var b=document.createElement("script");b.src="//static.criteo.net/js/ld/publishertag.js";b.onload=function(){for(var a=0;a<__ATA.criteo.cmd.length;a++){var b=__ATA.criteo.cmd[a];"function"===typeof b&&b()}};(document.head||document.getElementsByTagName("head")[0]).appendChild(b);__ATA.criteo.script=b}__ATA.criteo.cmd.push(c)}})();
+		</script>
+			</div>
+		</div>			</div><!-- .entry-content -->
+	<footer class="entry-meta">
+			</footer>
+</article><!-- #post-218 -->
+
+					
+	
+	<div id="comments" class="comments-area">
+
+	
+	
+	
+	
+</div><!-- #comments .comments-area -->
+				
+			</div><!-- #content -->
+		</div><!-- #primary .site-content -->
+
+
+	</div><!-- #main -->
+
+	
+	<footer id="colophon" class="site-footer clear-fix" role="contentinfo">
+		<div class="site-info">
+						<a href="https://wordpress.com/?ref=footer_blog">Blog at WordPress.com.</a>
+			
+					</div><!-- .site-info -->
+			</footer><!-- .site-footer .site-footer -->
+</div><!-- #page .hfeed .site -->
+
+<!--  -->
+<script type='text/javascript' src='//0.gravatar.com/js/gprofiles.js?ver=201807y'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var WPGroHo = {"my_hash":""};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://s1.wp.com/wp-content/mu-plugins/gravatar-hovercards/wpgroho.js?m=1380573781h'></script>
+
+	<script>
+		//initialize and attach hovercards to all gravatars
+		jQuery( document ).ready( function( $ ) {
+
+			if (typeof Gravatar === "undefined"){
+				return;
+			}
+
+			if ( typeof Gravatar.init !== "function" ) {
+				return;
+			}			
+
+			Gravatar.profile_cb = function( hash, id ) {
+				WPGroHo.syncProfileData( hash, id );
+			};
+			Gravatar.my_hash = WPGroHo.my_hash;
+			Gravatar.init( 'body', '#wp-admin-bar-my-account' );
+		});
+	</script>
+
+		<div style="display:none">
+	</div>
+
+	<div id="carousel-reblog-box">
+		<form action="#" name="carousel-reblog">
+			<textarea id="carousel-reblog-content" name="carousel-reblog-content" placeholder="Add your thoughts here... (optional)"></textarea>
+			<label for="carousel-reblog-to-blog-id" id="carousel-reblog-lblogid">Post to</label>
+			<select name="carousel-reblog-to-blog-id" id="carousel-reblog-to-blog-id">
+						</select>
+
+			<div class="submit">
+				<span class="canceltext"><a href="#" class="cancel">Cancel</a></span>
+				<input type="submit" name="carousel-reblog-submit" class="button" id="carousel-reblog-submit" value="Reblog Post" />
+				<input type="hidden" id="carousel-reblog-blog-id" value="74373737" />
+				<input type="hidden" id="carousel-reblog-blog-url" value="https://emeryberger.com" />
+				<input type="hidden" id="carousel-reblog-blog-title" value="Emery Berger" />
+				<input type="hidden" id="carousel-reblog-post-url" value="" />
+				<input type="hidden" id="carousel-reblog-post-title" value="" />
+			</div>
+
+			<input type="hidden" id="_wpnonce" name="_wpnonce" value="35de97e1e3" /><input type="hidden" name="_wp_http_referer" value="/systems-lunch/" />		</form>
+
+		<div class="arrow"></div>
+	</div>
+<link rel='stylesheet' id='all-css-0-2' href='https://s1.wp.com/wp-content/mu-plugins/carousel/jetpack-carousel.css?m=1481571546h&cssminify=yes' type='text/css' media='all' />
+<!--[if lte IE 8]>
+<link rel='stylesheet' id='jetpack-carousel-ie8fix-css'  href='https://s1.wp.com/wp-content/mu-plugins/carousel/jetpack-carousel-ie8fix.css?m=1412618825h&#038;ver=20121024' type='text/css' media='all' />
+<![endif]-->
+<script type='text/javascript'>
+/* <![CDATA[ */
+var comment_like_text = {"loading":"Loading..."};
+/* ]]> */
+</script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var actionbardata = {"siteID":"74373737","siteName":"Emery Berger","siteURL":"https:\/\/emeryberger.com","icon":"<img alt='' src='https:\/\/s1.wp.com\/i\/logo\/wpcom-gray-white.png' class='avatar avatar-50' height='50' width='50' \/>","canManageOptions":"","canCustomizeSite":"","isFollowing":"","themeSlug":"pub\/oxygen","signupURL":"https:\/\/wordpress.com\/start\/","loginURL":"https:\/\/emeryberger.wordpress.com\/wp-login.php?redirect_to=https%3A%2F%2Femeryberger.com%2Fsystems-lunch%2F","themeURL":"","xhrURL":"https:\/\/emeryberger.com\/wp-admin\/admin-ajax.php","nonce":"3bcb3e1ce9","isSingular":"1","isFolded":"","isLoggedIn":"","isMobile":"","subscribeNonce":"<input type=\"hidden\" id=\"_wpnonce\" name=\"_wpnonce\" value=\"67467ea70b\" \/>","referer":"https:\/\/emeryberger.com\/systems-lunch\/","canFollow":"","feedID":"25117729","statusMessage":"","customizeLink":"https:\/\/emeryberger.wordpress.com\/wp-admin\/customize.php?url=https%3A%2F%2Femeryberger.wordpress.com%2Fsystems-lunch%2F","postID":"218","shortlink":"https:\/\/wp.me\/P5240p-3w","canEditPost":"","editLink":"https:\/\/wordpress.com\/page\/emeryberger.com\/218","statsLink":"https:\/\/wordpress.com\/stats\/post\/218\/emeryberger.com","i18n":{"view":"View site","follow":"Follow","following":"Following","edit":"Edit","login":"Log in","signup":"Sign up","customize":"Customize","report":"Report this content","themeInfo":"Get theme: Oxygen","shortlink":"Copy shortlink","copied":"Copied","followedText":"New posts from this site will now appear in your <a href=\"https:\/\/wordpress.com\/\">Reader<\/a>","foldBar":"Collapse this bar","unfoldBar":"Expand this bar","editSubs":"Manage subscriptions","viewReader":"View site in Reader","viewReadPost":"View post in Reader","subscribe":"Sign me up","enterEmail":"Enter your email address","followers":"Join 463 other followers","alreadyUser":"Already have a WordPress.com account? <a href=\"https:\/\/emeryberger.wordpress.com\/wp-login.php?redirect_to=https%3A%2F%2Femeryberger.com%2Fsystems-lunch%2F\">Log in now.<\/a>","stats":"Stats"}};
+/* ]]> */
+</script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var jetpackCarouselStrings = {"widths":[370,700,1000,1200,1400,2000],"is_logged_in":"","lang":"en","ajaxurl":"https:\/\/emeryberger.com\/wp-admin\/admin-ajax.php","nonce":"6a2df3082b","display_exif":"1","display_geo":"1","single_image_gallery":"1","single_image_gallery_media_file":"","background_color":"black","comment":"Comment","post_comment":"Post Comment","write_comment":"Write a Comment...","loading_comments":"Loading Comments...","download_original":"View full size <span class=\"photo-size\">{0}<span class=\"photo-size-times\">\u00d7<\/span>{1}<\/span>","no_comment_text":"Please be sure to submit some text with your comment.","no_comment_email":"Please provide an email address to comment.","no_comment_author":"Please provide your name to comment.","comment_post_error":"Sorry, but there was an error posting your comment. Please try again later.","comment_approved":"Your comment was approved.","comment_unapproved":"Your comment is in moderation.","camera":"Camera","aperture":"Aperture","shutter_speed":"Shutter Speed","focal_length":"Focal Length","comment_registration":"0","require_name_email":"1","login_url":"https:\/\/emeryberger.wordpress.com\/wp-login.php?redirect_to=https%3A%2F%2Femeryberger.com%2Fsystems-lunch%2F","blog_id":"74373737","local_comments_commenting_as":"<fieldset><label for=\"email\">Email (Required)<\/label> <input type=\"text\" name=\"email\" class=\"jp-carousel-comment-form-field jp-carousel-comment-form-text-field\" id=\"jp-carousel-comment-form-email-field\" \/><\/fieldset><fieldset><label for=\"author\">Name (Required)<\/label> <input type=\"text\" name=\"author\" class=\"jp-carousel-comment-form-field jp-carousel-comment-form-text-field\" id=\"jp-carousel-comment-form-author-field\" \/><\/fieldset><fieldset><label for=\"url\">Website<\/label> <input type=\"text\" name=\"url\" class=\"jp-carousel-comment-form-field jp-carousel-comment-form-text-field\" id=\"jp-carousel-comment-form-url-field\" \/><\/fieldset>","reblog":"Reblog","reblogged":"Reblogged","reblog_add_thoughts":"Add your thoughts here... (optional)","reblogging":"Reblogging...","post_reblog":"Post Reblog","stats_query_args":"blog=74373737&v=wpcom&tz=-5&user_id=0&subd=emeryberger","is_public":"1","reblog_enabled":""};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://s1.wp.com/_static/??-eJyVkt2OwiAQhV9oKWmybvTC7LNQmFSQv2VA7dvvYFNTtZp6R86cbzicwM+RyeAz+MwNcgUnLSFeGoNffDZyhUVbeu2RW30E5H8FChyEVxbSG7MMzpHERshUuuN41hE+ge6ERzAfwJEtlo6Hy9CDrwQ6YS0jqKyyG3pOGho5SAuN036CtJe2qDGEdqIHtEEoUK88TmDwtGg2XnPv3eo13FV806BQlIB1ItVEGRKdWDhBSroGvWkfbshJyONT/3NIZh18hW6npZYwLrc3tjGVMnctfRKRQkGw3ECOlItNAjG/bt9u2p/ddtN+b80/gZ4VEw=='></script>
+<script type="text/javascript">
+// <![CDATA[
+(function() {
+try{
+  if ( window.external &&'msIsSiteMode' in window.external) {
+    if (window.external.msIsSiteMode()) {
+      var jl = document.createElement('script');
+      jl.type='text/javascript';
+      jl.async=true;
+      jl.src='/wp-content/plugins/ie-sitemode/custom-jumplist.php';
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(jl, s);
+    }
+  }
+}catch(e){}
+})();
+// ]]>
+</script>	<script type="text/javascript">
+	var skimlinks_pub_id = "725X584219"
+	var skimlinks_sitename = "emeryberger.wordpress.com";
+	</script>
+	<script type="text/javascript" defer src="https://s.skimresources.com/js/725X1342.skimlinks.js"></script><script src="//stats.wp.com/w.js?56" type="text/javascript" async defer></script>
+<script type="text/javascript">
+_tkq = window._tkq || [];
+_stq = window._stq || [];
+_tkq.push(['storeContext', {'blog_id':'74373737','blog_tz':'-5','user_lang':'en','blog_lang':'en','user_id':'0'}]);
+_stq.push(['view', {'blog':'74373737','v':'wpcom','tz':'-5','user_id':'0','post':'218','subd':'emeryberger'}]);
+_stq.push(['extra', {'crypt':'UE5XaGUuOTlwaD85flAmcm1mcmZsaDhkV11YdWtpP0NsWnVkPS9sL0ViLndld3BuVT01Unp2dX5PUERZYystNzVBRktNTj0uRG5kbVFIZ0EmSC5ZRXRlOFpbWkpUJUdDRDAwbExkVS5DP25Jcz16M1F2aXRXRkJXfDg4N09BX3lJc2ZTWjlsOC14SCxjVk9yL1dxRWh2TX5VRDd6SDVTREovUyZ4fmsmT2ktbGxRLXo2Mz1BOU1KQSZySU12Tz8vSndIWGlVY2pVfi90JVAxN29CJWhPTUFydWdmJWlV'}]);
+_stq.push([ 'clickTrackerInit', '74373737', '218' ]);
+	</script>
+<noscript><img src="https://pixel.wp.com/b.gif?v=noscript" style="height:0px;width:0px;overflow:hidden" alt="" /></noscript>
+<script>
+if ( 'object' === typeof wpcom_mobile_user_agent_info ) {
+
+	wpcom_mobile_user_agent_info.init();
+	var mobileStatsQueryString = "";
+	
+	if( false !== wpcom_mobile_user_agent_info.matchedPlatformName )
+		mobileStatsQueryString += "&x_" + 'mobile_platforms' + '=' + wpcom_mobile_user_agent_info.matchedPlatformName;
+	
+	if( false !== wpcom_mobile_user_agent_info.matchedUserAgentName )
+		mobileStatsQueryString += "&x_" + 'mobile_devices' + '=' + wpcom_mobile_user_agent_info.matchedUserAgentName;
+	
+	if( wpcom_mobile_user_agent_info.isIPad() )
+		mobileStatsQueryString += "&x_" + 'ipad_views' + '=' + 'views';
+
+	if( "" != mobileStatsQueryString ) {
+		new Image().src = document.location.protocol + '//pixel.wp.com/g.gif?v=wpcom-no-pv' + mobileStatsQueryString + '&baba=' + Math.random();
+	}
+	
+}
+</script>
+</body>
+</html>
+<!--
+	generated 195 seconds ago
+	generated in 0.329 seconds
+	served from batcache in 0.002 seconds
+	expires in 105 seconds
+-->

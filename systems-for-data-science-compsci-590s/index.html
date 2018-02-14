@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<!--[if IE 8]>
+<html id="ie8" lang="en">
+<![endif]-->
+<!--[if !(IE 8)]><!-->
+<html lang="en">
+<!--<![endif]-->
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Systems for Data Science (COMPSCI 590S) | Emery Berger</title>
+<link rel="profile" href="http://gmpg.org/xfn/11" />
+<link rel="pingback" href="https://emeryberger.com/xmlrpc.php" />
+<!--[if lt IE 9]>
+<script src="https://s0.wp.com/wp-content/themes/pub/oxygen/js/html5.js" type="text/javascript"></script>
+<![endif]-->
+
+		<script src='https://r-login.wordpress.com/remote-login.php?action=js&amp;host=emeryberger.com&amp;id=74373737&amp;t=1518629473&amp;back=https%3A%2F%2Femeryberger.com%2Fsystems-for-data-science-compsci-590s%2F' type="text/javascript"></script>
+		<script type="text/javascript">
+		/* <![CDATA[ */
+			if ( 'function' === typeof WPRemoteLogin ) {
+				document.cookie = "wordpress_test_cookie=test; path=/";
+				if ( document.cookie.match( /(;|^)\s*wordpress_test_cookie\=/ ) ) {
+					WPRemoteLogin();
+				}
+			}
+		/* ]]> */
+		</script>
+		<link rel='dns-prefetch' href='//s2.wp.com' />
+<link rel='dns-prefetch' href='//s0.wp.com' />
+<link rel='dns-prefetch' href='//emeryberger.wordpress.com' />
+<link rel='dns-prefetch' href='//s1.wp.com' />
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.pubmine.com' />
+<link rel='dns-prefetch' href='//x.bidswitch.net' />
+<link rel='dns-prefetch' href='//static.criteo.net' />
+<link rel='dns-prefetch' href='//ib.adnxs.com' />
+<link rel='dns-prefetch' href='//aax.amazon-adsystem.com' />
+<link rel='dns-prefetch' href='//bidder.criteo.com' />
+<link rel='dns-prefetch' href='//cas.criteo.com' />
+<link rel='dns-prefetch' href='//gum.criteo.com' />
+<link rel='dns-prefetch' href='//ads.pubmatic.com' />
+<link rel='dns-prefetch' href='//gads.pubmatic.com' />
+<link rel='dns-prefetch' href='//tpc.googlesyndication.com' />
+<link rel='dns-prefetch' href='//ad.doubleclick.net' />
+<link rel='dns-prefetch' href='//googleads.g.doubleclick.net' />
+<link rel='dns-prefetch' href='//www.googletagservices.com' />
+<link rel='dns-prefetch' href='//cdn.switchadhub.com' />
+<link rel='dns-prefetch' href='//delivery.g.switchadhub.com' />
+<link rel='dns-prefetch' href='//delivery.swid.switchadhub.com' />
+<link rel="alternate" type="application/rss+xml" title="Emery Berger &raquo; Feed" href="https://emeryberger.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Emery Berger &raquo; Comments Feed" href="https://emeryberger.com/comments/feed/" />
+	<script type="text/javascript">
+		/* <![CDATA[ */
+		function addLoadEvent(func) {
+			var oldonload = window.onload;
+			if (typeof window.onload != 'function') {
+				window.onload = func;
+			} else {
+				window.onload = function () {
+					oldonload();
+					func();
+				}
+			}
+		}
+		/* ]]> */
+	</script>
+			<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s0.wp.com\/wp-content\/mu-plugins\/wpcom-smileys\/twemoji\/2\/72x72\/","ext":".png","svgUrl":"https:\/\/s0.wp.com\/wp-content\/mu-plugins\/wpcom-smileys\/twemoji\/2\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/s1.wp.com\/wp-includes\/js\/wp-emoji-release.min.js?m=1516999477h&ver=4.9.4"}};
+			!function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&&(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55357,56692,8205,9792,65039],[55357,56692,8203,9792,65039]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&&k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='all-css-0-1' href='https://s0.wp.com/_static/??-eJx9kNsOwiAMhl9IJEt0zgvjs3BoGJMCWVmmby9smcZDuCFt+b/2b/kcmQo+gU8cJxbdZKwnPkcVkBFaB4+vbK+Idvw/5uwNiA+QolA3tmQ/cumCec8JoxaauHFBCldrrcIIuY5RpKJA0FaAA8yyGjZbbSBlnLaYJbhXEYztNqiEfV6luvR6HSnjCEQsv2gnZKnP3qpcpor79UyLwY/KilruQ7KZpldQPq54aQ7ntjs13bEZnm54qeQ=?cssminify=yes' type='text/css' media='all' />
+<link rel='stylesheet' id='screen-css-1-1' href='https://s1.wp.com/wp-content/themes/pub/oxygen/style.css?m=1499391730h&cssminify=yes' type='text/css' media='screen' />
+<link rel='stylesheet' id='font-droid-sans-css'  href='https://fonts.googleapis.com/css?family=Droid+Sans&#038;ver=20120821' type='text/css' media='all' />
+<link rel='stylesheet' id='font-abel-css'  href='https://fonts.googleapis.com/css?family=Abel&#038;ver=20120821' type='text/css' media='all' />
+<link rel='stylesheet' id='all-css-6-1' href='https://s2.wp.com/_static/??-eJx9y0EOwjAMRNELYawAErBAnKUNJhgldlQnSnt7wq7ddDdfmoctg1cpJAXLhxIZ5jqizksgQRaPVpZI0LLXdPRmB1yJVCHHGlgMG78CFUNTz0ME7pdt7OFAClH9UFhlE/COA097dKIxaugzYH+t8o+e6eEu9+vp5tzZfX9mnle+?cssminify=yes' type='text/css' media='all' />
+<link rel='stylesheet' id='print-css-7-1' href='https://s0.wp.com/wp-content/mu-plugins/global-print/global-print.css?m=1465851035h&cssminify=yes' type='text/css' media='print' />
+<link rel='stylesheet' id='all-css-8-1' href='https://s1.wp.com/_static/??-eJx9jlEKwjAQRC9kXAKt1A/xLElIk5XNbsim2N5eBEVE6dfMwHswcK8mCPfIHcpiKi0JWQF5Rsa+Qc+xRIW6eJB1S5GPQfUA/y0XOgp71z5tD6+i3czksIFm15DTO/cslYCODEmS7/Ejvb7nARKJd/QEruViR3s6T6MdptsDJ+Feag==?cssminify=yes' type='text/css' media='all' />
+<script type='text/javascript' src='https://s1.wp.com/_static/??-eJyFztEKwjAMBdAfsquTiXsRv6XWOFKXtDbphn69HeiDMBQCgdzDJXZOBtmP5QJiQ517gfx4rybIxv4ChnDITqEh5A/2kRVYF0vxjCOYIpDdUG+16BpXXIqiBCIVraTfLyFPCPNfFkCT8zeTQfC5tJ7o2Hb9Yde3+24bXjRNW9I='></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://emeryberger.wordpress.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://s1.wp.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress.com" />
+<link rel="canonical" href="https://emeryberger.com/systems-for-data-science-compsci-590s/" />
+<link rel='shortlink' href='https://wp.me/P5240p-7j' />
+<link rel="alternate" type="application/json+oembed" href="https://public-api.wordpress.com/oembed/?format=json&amp;url=https%3A%2F%2Femeryberger.com%2Fsystems-for-data-science-compsci-590s%2F&amp;for=wpcom-auto-discovery" /><link rel="alternate" type="application/xml+oembed" href="https://public-api.wordpress.com/oembed/?format=xml&amp;url=https%3A%2F%2Femeryberger.com%2Fsystems-for-data-science-compsci-590s%2F&amp;for=wpcom-auto-discovery" />
+<!-- Jetpack Open Graph Tags -->
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Systems for Data Science (COMPSCI 590S)" />
+<meta property="og:url" content="https://emeryberger.com/systems-for-data-science-compsci-590s/" />
+<meta property="og:description" content="Professor Emery Berger class meetings: Tuesday/Thursday 2:30pm-3:45pm, Integrated Science Building (ISB) 221 TA: Anna Deng (adeng@cs.umass.edu); office hours: Mondays 4-5pm, CS Building 207 paper r…" />
+<meta property="article:published_time" content="2016-09-06T13:57:59+00:00" />
+<meta property="article:modified_time" content="2017-11-16T18:30:53+00:00" />
+<meta property="og:site_name" content="Emery Berger" />
+<meta property="og:image" content="https://s0.wp.com/i/blank.jpg" />
+<meta property="og:locale" content="en_US" />
+<meta name="twitter:site" content="@wordpressdotcom" />
+<meta name="twitter:text:title" content="Systems for Data Science (COMPSCI 590S)" />
+<meta name="twitter:card" content="summary" />
+<meta property="article:publisher" content="https://www.facebook.com/WordPresscom" />
+<link rel="shortcut icon" type="image/x-icon" href="https://s2.wp.com/i/favicon.ico" sizes="16x16 24x24 32x32 48x48" />
+<link rel="icon" type="image/x-icon" href="https://s2.wp.com/i/favicon.ico" sizes="16x16 24x24 32x32 48x48" />
+<link rel="apple-touch-icon-precomposed" href="https://s0.wp.com/i/webclip.png" />
+<link rel='openid.server' href='https://emeryberger.wordpress.com/?openidserver=1' />
+<link rel='openid.delegate' href='https://emeryberger.wordpress.com/' />
+<link rel="search" type="application/opensearchdescription+xml" href="https://emeryberger.com/osd.xml" title="Emery Berger" />
+<link rel="search" type="application/opensearchdescription+xml" href="https://s1.wp.com/opensearch.xml" title="WordPress.com" />
+<meta name="theme-color" content="#ffffff" />
+	<style type="text/css">
+		#page {
+			background-color: #ffffff		}
+	</style>
+	<style>
+		html {
+			font-size: 18px;
+		}
+		h1, h2, h3, h4, h5, h6, dl dt, blockquote, blockquote blockquote blockquote, .site-title, .main-navigation a, .widget_calendar caption {
+			font-family: 'Droid Sans', sans-serif;
+		}
+		.error, .entry-title a, .entry-content a, entry-summary a, .main-navigation > div > ul > li > a, .widget a, .post-navigation a, #image-navigation a, .pingback a, .logged-in-as a, .more-articles .entry-title a:hover, .widget_flickr #flickr_badge_uber_wrapper a {
+			color: #0d7ed3;
+		}
+		a:hover, .comment-meta a, .comment-meta a:visited {
+			border-color: #0d7ed3;
+		}
+		a.read-more, a.read-more:visited, .pagination a:hover, .comment-navigation a:hover, button, html input[type="button"], input[type="reset"], input[type="submit"], #infinite-handle span {
+			background-color: #0d7ed3;
+		}
+	</style>
+		<style type="text/css">
+			.recentcomments a {
+				display: inline !important;
+				padding: 0 !important;
+				margin: 0 !important;
+			}
+
+			table.recentcommentsavatartop img.avatar, table.recentcommentsavatarend img.avatar {
+				border: 0px;
+				margin: 0;
+			}
+
+			table.recentcommentsavatartop a, table.recentcommentsavatarend a {
+				border: 0px !important;
+				background-color: transparent !important;
+			}
+
+			td.recentcommentsavatarend, td.recentcommentsavatartop {
+				padding: 0px 0px 1px 0px;
+				margin: 0px;
+			}
+
+			td.recentcommentstextend {
+				border: none !important;
+				padding: 0px 0px 2px 10px;
+			}
+
+			.rtl td.recentcommentstextend {
+				padding: 0px 10px 2px 0px;
+			}
+
+			td.recentcommentstexttop {
+				border: none;
+				padding: 0px 0px 0px 10px;
+			}
+
+			.rtl td.recentcommentstexttop {
+				padding: 0px 10px 0px 0px;
+			}
+		</style>
+		<meta name="application-name" content="Emery Berger" /><meta name="msapplication-window" content="width=device-width;height=device-height" /><meta name="msapplication-tooltip" content="Professor of Computer Science, UMass Amherst" /><meta name="msapplication-task" content="name=Subscribe;action-uri=https://emeryberger.com/feed/;icon-uri=https://s2.wp.com/i/favicon.ico" /><meta name="msapplication-task" content="name=Sign up for a free blog;action-uri=http://wordpress.com/signup/;icon-uri=https://s2.wp.com/i/favicon.ico" /><meta name="msapplication-task" content="name=WordPress.com Support;action-uri=http://support.wordpress.com/;icon-uri=https://s2.wp.com/i/favicon.ico" /><meta name="msapplication-task" content="name=WordPress.com Forums;action-uri=http://forums.wordpress.com/;icon-uri=https://s2.wp.com/i/favicon.ico" /><meta name="title" content="Systems for Data Science (COMPSCI 590S) | Emery Berger on WordPress.com" />
+<meta name="description" content="Professor Emery Berger class meetings: Tuesday/Thursday 2:30pm-3:45pm, Integrated Science Building (ISB) 221 TA: Anna Deng (adeng@cs.umass.edu); office hours: Mondays 4-5pm, CS Building 207 paper review site: http://systems-for-data-science.cs.umass.edu/ Piazza page: https://piazza.com/umass/fall2017/compsci590s/home course GitHub site (with lecture notes): https://github.com/emeryberger/COMPSCI590S Description In this course, students will learn the fundamentals behind large-scale systems in the context of data science. We will cover&hellip;" />
+		<script type="text/javascript">
+		var __ATA_PP = { pt: 2, ht: 0, tn: 'oxygen', amp: false, siteid: 2694 };
+		var __ATA = __ATA || {};
+		__ATA.cmd = __ATA.cmd || [];
+		__ATA.criteo = __ATA.criteo || {};
+		__ATA.criteo.cmd = __ATA.criteo.cmd || [];
+		</script>
+		<script type="text/javascript" src="//s.pubmine.com/head.js" async></script><style type="text/css" id="syntaxhighlighteranchor"></style>
+<script type="text/javascript">
+	window.google_analytics_uacct = "UA-52447-2";
+</script>
+
+<script type="text/javascript">
+	var _gaq = _gaq || [];
+	_gaq.push(['_setAccount', 'UA-52447-2']);
+	_gaq.push(['_setDomainName', 'none']);
+	_gaq.push(['_setAllowLinker', true]);
+	_gaq.push(['_initData']);
+	_gaq.push(['_trackPageview']);
+
+	(function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(ga);
+	})();
+</script>
+</head>
+
+<body class="page-template page-template-full-width-page page-template-full-width-page-php page page-id-453 no-js mp6 customizer-styles-applied highlander-enabled highlander-light">
+<div id="page" class="hfeed site">
+		<header id="masthead" class="site-header" role="banner">
+		<hgroup>
+						<h1 class="site-title"><a href="https://emeryberger.com/" title="Emery Berger" rel="home">Emery Berger</a></h1>
+			<h2 class="site-description">Professor of Computer Science, UMass Amherst</h2>
+		</hgroup>
+
+		
+		
+		<nav role="navigation" class="site-navigation main-navigation clear-fix">
+			<h1 class="assistive-text">Main Menu</h1>
+			<div class="assistive-text skip-link"><a href="#content" title="Skip to content">Skip to content</a></div>
+
+			<div class="menu-the-menu-container"><ul id="menu-the-menu" class="menu"><li id="menu-item-116" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-has-children menu-item-116"><a href="https://emeryberger.com/">About</a>
+<ul class="sub-menu">
+	<li id="menu-item-117" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-117"><a href="https://emeryberger.com/home-page/bio-vita-and-contact-info/">Bio &amp; Contact</a></li>
+</ul>
+</li>
+<li id="menu-item-245" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-245"><a href="http://emeryblogger.com">Blog</a></li>
+<li id="menu-item-125" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-125"><a href="https://emeryberger.com/news/">News</a></li>
+<li id="menu-item-115" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-115"><a href="https://emeryberger.com/press/">Press</a></li>
+<li id="menu-item-123" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-123"><a href="https://emeryberger.com/publications/">Pubs</a></li>
+<li id="menu-item-107" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-107"><a href="https://emeryberger.com/research/">Research</a>
+<ul class="sub-menu">
+	<li id="menu-item-111" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-111"><a href="https://emeryberger.com/research/automan/">AutoMan</a></li>
+	<li id="menu-item-113" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-113"><a href="https://emeryberger.com/research/checkcell/">CheckCell</a></li>
+	<li id="menu-item-175" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-175"><a href="https://emeryberger.com/research/diehard/">DieHard</a></li>
+	<li id="menu-item-176" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-176"><a href="https://emeryberger.com/research/dieharder/">DieHarder</a></li>
+	<li id="menu-item-110" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-110"><a href="https://emeryberger.com/research/doppio/">Doppio</a></li>
+	<li id="menu-item-109" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-109"><a href="https://emeryberger.com/research/dthreads/">Dthreads</a></li>
+	<li id="menu-item-170" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-170"><a href="https://emeryberger.com/research/exterminator/">Exterminator</a></li>
+	<li id="menu-item-169" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-169"><a href="https://emeryberger.com/research/grace/">Grace</a></li>
+	<li id="menu-item-168" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-168"><a href="https://emeryberger.com/research/hound/">Hound</a></li>
+	<li id="menu-item-167" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-167"><a href="https://emeryberger.com/research/redline/">Redline</a></li>
+	<li id="menu-item-166" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-166"><a href="https://emeryberger.com/research/sheriff/">Sheriff</a></li>
+	<li id="menu-item-112" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-112"><a href="https://emeryberger.com/research/stabilizer/">Stabilizer</a></li>
+	<li id="menu-item-108" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-108"><a href="https://emeryberger.com/research/surveyman/">SurveyMan</a></li>
+</ul>
+</li>
+<li id="menu-item-104" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-104"><a href="https://emeryberger.com/software/">Software</a>
+<ul class="sub-menu">
+	<li id="menu-item-131" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-131"><a href="http://automan-lang.org">AutoMan</a></li>
+	<li id="menu-item-132" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-132"><a href="http://diehard-software.org/">DieHard</a></li>
+	<li id="menu-item-128" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-128"><a href="http://www.doppiojvm.org/">DoppioJVM</a></li>
+	<li id="menu-item-133" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-133"><a href="http://heaplayers.org">Heap Layers</a></li>
+	<li id="menu-item-103" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-103"><a href="http://www.hoard.org">Hoard</a></li>
+	<li id="menu-item-129" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-129"><a href="http://stabilizer-tool.org">Stabilizer</a></li>
+	<li id="menu-item-130" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-130"><a href="http://surveyman.org">SurveyMan</a></li>
+</ul>
+</li>
+<li id="menu-item-105" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-105"><a href="https://emeryberger.com/students/">Students</a>
+<ul class="sub-menu">
+	<li id="menu-item-447" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-447"><a target="_blank" href="https://bpowers.net/">Bobby Powers</a></li>
+	<li id="menu-item-134" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-134"><a href="http://people.cs.umass.edu/~dbarowy">Dan Barowy</a></li>
+	<li id="menu-item-137" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-137"><a href="http://people.cs.umass.edu/~jvilk">John Vilk</a></li>
+	<li id="menu-item-448" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-448"><a href="https://emeryberger.com/systems-for-data-science-compsci-590s/">Alumni</a>
+	<ul class="sub-menu">
+		<li id="menu-item-136" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-136"><a target="_blank" href="http://www.cs.grinnell.edu/~curtsinger/">Charlie Curtsinger</a></li>
+		<li id="menu-item-449" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-449"><a target="_blank" href="https://www.linkedin.com/in/gene-novark-183a4b20">Gene Novark</a></li>
+		<li id="menu-item-450" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-450"><a target="_blank" href="http://www-cs.canisius.edu/~hertzm/">Matthew Hertz</a></li>
+		<li id="menu-item-451" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-451"><a target="_blank" href="https://www.linkedin.com/in/tingyang">Ting Yang</a></li>
+		<li id="menu-item-452" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-452"><a target="_blank" href="http://www.cs.utsa.edu/~tongpingliu/">Tongping Liu</a></li>
+	</ul>
+</li>
+</ul>
+</li>
+<li id="menu-item-122" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children menu-item-122"><a href="https://emeryberger.com/teaching/">Teaching</a>
+<ul class="sub-menu">
+	<li id="menu-item-528" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-528"><a href="https://emeryberger.com/teaching/grad-systems/">Systems, Spring 2018</a></li>
+	<li id="menu-item-454" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-453 current_page_item menu-item-454"><a href="https://emeryberger.com/systems-for-data-science-compsci-590s/">Systems for Data Science (COMPSCI 590S)</a></li>
+	<li id="menu-item-455" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-455"><a href="https://emeryberger.com/systems-for-data-science-compsci-590s/">Previous Semesters</a>
+	<ul class="sub-menu">
+		<li id="menu-item-284" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-284"><a href="https://emeryberger.com/teaching/empirical-methods/">Empirical Methods</a></li>
+		<li id="menu-item-342" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-342"><a href="https://emeryberger.com/teaching/hot-topics-in-pl-systems-fall-2015/">Hot Topics in PL &amp; Systems, Fall 2015</a></li>
+		<li id="menu-item-119" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-119"><a href="https://emeryberger.com/teaching/systems-fall2015/">Systems, Fall 2015</a>
+		<ul class="sub-menu">
+			<li id="menu-item-149" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-149"><a href="https://emeryberger.com/teaching/systems-fall2014/systems-project-1/">Project 1</a></li>
+		</ul>
+</li>
+	</ul>
+</li>
+</ul>
+</li>
+<li id="menu-item-106" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-106"><a href="https://emeryberger.com/video/">Video</a></li>
+</ul></div>		</nav>
+	</header><!-- #masthead .site-header -->
+
+	<div id="main" class="clear-fix">
+		<div id="primary" class="site-content full-width">
+			<div id="content" role="main">
+
+				
+					
+<article id="post-453" class="post-453 page type-page status-publish hentry">
+	<header class="entry-header">
+		<h1 class="entry-title">Systems for Data Science (COMPSCI 590S)</h1>
+	</header><!-- .entry-header -->
+
+	<div class="entry-content clear-fix">
+		<h2>Professor Emery Berger</h2>
+<ul>
+<li><em>class meetings: Tuesday/Thursday 2:30pm-3:45pm, Integrated Science Building (ISB) 221</em></li>
+<li><em>TA: Anna Deng (<a href="mailto:adeng@cs.umass.edu" target="_blank" rel="noopener">adeng@cs.umass.edu</a>); office hours: Mondays 4-5pm, CS Building 207</em></li>
+<li><em>paper review site:</em> <em><a href="http://systems-for-data-science.cs.umass.edu/">http://systems-for-data-science.cs.umass.edu/</a></em></li>
+<li><em>Piazza page: <a href="https://piazza.com/umass/fall2017/compsci590s/home">https://piazza.com/umass/fall2017/compsci590s/home<br />
+</a></em></li>
+<li><em>course GitHub site (with lecture notes): <a href="https://github.com/emeryberger/COMPSCI590S">https://github.com/emeryberger/COMPSCI590S</a></em></li>
+</ul>
+<h3>Description</h3>
+<p>In this course, students will learn the fundamentals behind large-scale systems in the context of data science. We will cover the issues involved in scaling up (to many processors) and out (to many nodes) parallelism in order to perform fast analyses on large datasets. These include locality and data representation, concurrency, distributed databases and systems, performance analysis and understanding. We will explore the details of existing and emerging data science platforms, including map-reduce and graph analytics systems including (among others) Hadoop and Apache Spark.</p>
+<p>This course aims to gather and unify content that underpins the design and implementation of data science platforms, and introduce content specific to that area. This information will be directly useful to MS students, who will learn the theory and practice behind data science platforms and how to deliver high-performance data analytics.</p>
+<h3>Requirements</h3>
+<p>This course is an MS level Computer Science course, though it is also open to senior undergraduates majoring in Computer Science as well as PhD students. A solid systems background and substantial programming experience is required. Programming languages to be used will definitely include Java and may include C++, Python, and Scala. There will be a midterm exam, a final exam, and course projects throughout the semester. Students will also be expected to read and write reviews of papers (see below) and &#8220;scribe&#8221; lecture notes.</p>
+<p>Course grades will be distributed as follows (subject to change):</p>
+<ul>
+<li>Reviews and class participation: 10%</li>
+<li>Midterm: 20%</li>
+<li>Final exam: 30%</li>
+<li>Projects: 40%</li>
+</ul>
+<p>Because this is an emerging topic, there is no textbook. Instead, we will read technical papers. These will be posted here: <a href="http://systems-for-data-science.cs.umass.edu/">http://systems-for-data-science.cs.umass.edu/</a></p>
+<p>(Note that this site is only open to students taking the course.)</p>
+<p>Grades will be based on in-class participation, reviews, projects, and exams.<br />
+You must submit your reviews <b><a href="http://systems-for-data-science.cs.umass.edu/">via the review submission site</a></b> <em>before each class</em>, by 12 p.m.</p>
+<p>You will be expected to scribe at least one lecture’s notes. <a href="http://www.cs.umass.edu/~emery/classes/cmpsci691st/example-scribe-notes.tex">Here is an example</a> to use as a template (in LaTeX).</p>
+<h3>Schedule</h3>
+<p>Note: This schedule is tentative (under construction!) and subject to change, especially early in the semester.</p>
+<ol>
+<li>September 5 &#8211; Course introduction &amp; overview:  concurrency, parallelism, locality</li>
+<li>September 7 &#8211; Parallelism: Threads, message-passing</li>
+<li>September 12 &#8211; Parallelism, continued<br />
+<em>paper: <a href="http://systems-for-data-science.cs.umass.edu/paper/2">Amdahl&#8217;s Law, Gustafson&#8217;s Law, and Discussion</a></em></li>
+<li>September 14 &#8211; Fault-tolerance<br />
+<em>paper: <a href="http://systems-for-data-science.cs.umass.edu/paper/3">Why Do Computers Stop and What Can Be Done About It?</a></em><em><br />
+Note: September 18 = last day to drop with no record</em></li>
+<li>September 19 &#8211; Large-Scale Analytics: MapReduce / Hadoop<br />
+<strong>Project 1 assigned</strong><br />
+<em><em>paper:  <a class="q" href="http://systems-for-data-science.cs.umass.edu/paper/1"><span class="taghl"><span class="ptitle">MapReduce: Simplified Data Processing on Large Clusters<br />
+</span></span></a></em></em></li>
+<li>September 21 &#8211; <em>no class</em></li>
+<li>September 26 -Distributed computing, Cloud Computing, &#8220;Big Data&#8221;<br />
+<em><em>papers: <span class="taghl"><span class="ptitle"><a class="q" href="http://systems-for-data-science.cs.umass.edu/paper/4">MapReduce and Parallel DBMSs: Friends or Foes?</a>, </span></span><a class="q" href="http://systems-for-data-science.cs.umass.edu/paper/5"><span class="taghl"><span class="ptitle">MapReduce: A flexible Data Processing Tool</span></span></a></em></em></li>
+<li>September 28 &#8211; Databases, continued: SQL, database architectures, optimization, consistency</li>
+<li><span style="color:#666699;">[Oct 3/Oct 5 paper schedule to be adjusted]</span></li>
+<li>October 3 &#8211; &#8220;Databases&#8221;: NoSQL, key-value stores, consistent hashing (Redis, MongoDB)</li>
+<li>October 5 &#8211; Optimizing MapReduce: FlumeJava<br />
+<em>paper: </em><em><a class="q" href="http://systems-for-data-science.cs.umass.edu/paper/8"><span class="taghl"><span class="ptitle">FlumeJava: Easy, Efficient Data-Parallel Pipelines</span></span></a></em></li>
+<li><em><em>October 10 &#8211; no class (UMass Monday)</em><br />
+</em></li>
+<li><em> <strong>Project 1 due</strong><br />
+</em></li>
+<li>October 12: Storage: Google File System / HDFS<br />
+<em>paper: <a class="ptitle taghl" href="http://systems-for-data-science.cs.umass.edu/paper/9">The Google File System</a></em><em><br />
+Note: October 16 = last day to drop with DR (graduate)</em></li>
+<li>October 17 &#8211; TBD</li>
+<li>October 19: <strong>Midterm<br />
+</strong><em>Note: Last day to drop with W</em><strong><br />
+</strong></li>
+<li>October 24 &#8211; <em>no class</em></li>
+<li>October 26 &#8211; <em>no class</em></li>
+<li>October 31 &#8211; Graph Analytics<em>:</em> <a class="ptitle taghl" href="http://systems-for-data-science.cs.umass.edu/paper/6"><em>Pregel: A System for Large-Scale Graph Processing</em></a></li>
+<li>November 2 &#8211; BigTable<br />
+<em><em>paper:  <a class="q" href="http://systems-for-data-science.cs.umass.edu/paper/10"><span class="taghl"><span class="ptitle">Bigtable: A Distributed Storage System for Structured Data</span></span></a></em></em></li>
+<li>November 7 &#8211; Parallel Processing: Spark<br />
+<em>paper: </em><em><a class="q" href="http://systems-for-data-science.cs.umass.edu/paper/11"><span class="taghl"><span class="ptitle">Resilient Distributed Datasets: A Fault-Tolerant Abstraction for In-Memory Cluster Computing</span></span></a></em></li>
+<li>November 9 &#8211; Performance: Making Sense<br />
+<em><em>paper: <a class="q" href="http://systems-for-data-science.cs.umass.edu/paper/12"><span class="taghl"><span class="ptitle">Making Sense of Performance in Data Analytics Frameworks</span></span></a></em></em></li>
+<li>November 14 &#8211; Performance, Scalability<br />
+<em><em>paper: <a class="q" href="http://systems-for-data-science.cs.umass.edu/paper/13"><span class="taghl"><span class="ptitle">Scalability! But at what COST?</span></span></a></em></em></li>
+<li>November 16 &#8211; Distributed Shared Memory
+<p class="paptitle"><em><a class="q" href="http://systems-for-data-science.cs.umass.edu/paper/14"><span class="taghl"><span class="ptitle">paper: Latency-Tolerant Software Distributed Shared Memory</span></span></a></em></p>
+</li>
+<li><em>November 21 &#8211; no class (Thanksgiving)<br />
+</em><em>November 23 &#8211; no class (Thanksgiving)<br />
+</em><strong><em>November 24 &#8211; Project 2 due</em></strong></li>
+<li>November 28 -Data Warehousing<br />
+<em>paper: </em><em><a class="q" href="http://systems-for-data-science.cs.umass.edu/paper/17"><span class="taghl"><span class="ptitle">Hive &#8211; A Warehousing Solution Over a Map-Reduce Framework</span></span></a></em></li>
+<li>November 30 &#8211; Hybrid Systems (SQL + Big Data)<br />
+<em><em>paper:  <em><span class="taghl"><span class="ptitle"><a class="q" href="http://systems-for-data-science.cs.umass.edu/paper/15">Spark SQL: Relational Data Processing in Spark</a></span></span></em></em></em></li>
+<li>December 5 &#8211; Large-scale Key-Value stores<br />
+<em><em>paper: <em><a class="q" href="http://systems-for-data-science.cs.umass.edu/paper/16"><span class="taghl"><span class="ptitle">Dynamo: Amazon’s Highly Available Key-value Store</span></span></a></em></em></em></li>
+<li>December 7 &#8211; Intro to machine learning systems<br />
+<em><em>paper: <em><a class="q" href="http://systems-for-data-science.cs.umass.edu/paper/18"><span class="taghl"><span class="ptitle">TensorFlow: A System for Large-Scale Machine Learning</span></span></a></em></em></em></li>
+<li>December 12 &#8211; TensorFlow, continued<br />
+<strong>December 14: Final Exam</strong></li>
+</ol>
+<h3>Plagiarism Policy</h3>
+<p>All projects in this course are to be done by you / your group. Violation will result in an automatic zero on the project in question and initiation of the formal procedures of the University; in practice, this results in an F in the course at a minimum. We use an automated program and manual checks to correlate projects with each other and with prior solutions. At the same time, we encourage students to help each other learn the course material. As in most courses, there is a boundary separating these two situations. You may give or receive help on any of the concepts covered in lecture or discussion and on the specifics of programming language syntax, for example.</p>
+<p>You are allowed to consult with other students in the current class to help you understand the project specification (i.e., the problem definition). However, you may not collaborate in any way when constructing your solution: the solution to the project must be generated by you or your group working alone. You are not allowed to work out the programming details of the problems with anyone or to collaborate to the extent that your programs are identifiably similar. You are not allowed to look at or in any way derive advantage from the existence of project specifications or solutions prepared elsewhere.</p>
+<p>If you have any questions as to what constitutes unacceptable collaboration, please talk to the instructor right away. You are expected to exercise reasonable precautions in protecting your own work. Don’t let other students borrow your account or computer, don’t place your program in a publicly accessible directory or website, and take care when discarding printouts.  <strong>Publicly posting your code anywhere (e.g., on a public github repo) constitutes a violation of academic honesty.</strong></p>
+<h3>Accommodation Statement</h3>
+<p>The University of Massachusetts Amherst is committed to providing an equal educational opportunity for all students. If you have a documented physical, psychological, or learning disability on file with Disability Services (DS), you may be eligible for reasonable academic accommodations to help you succeed in this course. If you have a documented disability that requires an accommodation, please notify me within the first two weeks of the semester so that we may make appropriate arrangements.</p>
+<div id="atatags-370373-5a8472617cd37">
+        <script type="text/javascript">
+            __ATA.cmd.push(function() {
+                __ATA.initVideoSlot('atatags-370373-5a8472617cd37', {
+                    sectionId: '370373',
+                    format: 'inread'
+                });
+            });
+        </script>
+    </div>		<div class="wpcnt">
+			<div class="wpa wpmrec">
+				<span class="wpa-about">Advertisements</span>
+				<div class="u">		<div style="padding-bottom:15px;width:300px;height:250px;float:left;margin-right:5px;margin-top:0px">
+		<div id="atatags-26942-5a8472617cdb0">
+			<script type="text/javascript">
+			__ATA.cmd.push(function() {
+				__ATA.initSlot('atatags-26942-5a8472617cdb0',  {
+					collapseEmpty: 'before',
+					sectionId: '26942',
+					width: 300,
+					height: 250
+				});
+			});
+			</script>
+		</div></div>		<div style="padding-bottom:15px;width:300px;height:250px;float:left;margin-top:0px">
+		<div id="atatags-114160-5a8472617cde7">
+			<script type="text/javascript">
+			__ATA.cmd.push(function() {
+				__ATA.initSlot('atatags-114160-5a8472617cde7',  {
+					collapseEmpty: 'before',
+					sectionId: '114160',
+					width: 300,
+					height: 250
+				});
+			});
+			</script>
+		</div></div></div>
+						<div id="crt-1549938924" style="width:300px;height:250px;display:none !important;"></div>
+		<script type="text/javascript">
+(function(){var c=function(){var a=document.getElementById("crt-1549938924");window.Criteo?(a.parentNode.style.setProperty("display","inline-block","important"),a.style.setProperty("display","block","important"),window.Criteo.DisplayAcceptableAdIfAdblocked({zoneid:388248,containerid:"crt-1549938924",collapseContainerIfNotAdblocked:!0,callifnotadblocked:function(){a.style.setProperty("display","none","important");a.style.setProperty("visbility","hidden","important")}})):(a.style.setProperty("display","none","important"),a.style.setProperty("visibility","hidden","important"))};if(window.Criteo)c();else{if(!__ATA.criteo.script){var b=document.createElement("script");b.src="//static.criteo.net/js/ld/publishertag.js";b.onload=function(){for(var a=0;a<__ATA.criteo.cmd.length;a++){var b=__ATA.criteo.cmd[a];"function"===typeof b&&b()}};(document.head||document.getElementsByTagName("head")[0]).appendChild(b);__ATA.criteo.script=b}__ATA.criteo.cmd.push(c)}})();
+		</script>		<div id="crt-590822212" style="width:300px;height:250px;display:none !important;"></div>
+		<script type="text/javascript">
+(function(){var c=function(){var a=document.getElementById("crt-590822212");window.Criteo?(a.parentNode.style.setProperty("display","inline-block","important"),a.style.setProperty("display","block","important"),window.Criteo.DisplayAcceptableAdIfAdblocked({zoneid:837497,containerid:"crt-590822212",collapseContainerIfNotAdblocked:!0,callifnotadblocked:function(){a.style.setProperty("display","none","important");a.style.setProperty("visbility","hidden","important")}})):(a.style.setProperty("display","none","important"),a.style.setProperty("visibility","hidden","important"))};if(window.Criteo)c();else{if(!__ATA.criteo.script){var b=document.createElement("script");b.src="//static.criteo.net/js/ld/publishertag.js";b.onload=function(){for(var a=0;a<__ATA.criteo.cmd.length;a++){var b=__ATA.criteo.cmd[a];"function"===typeof b&&b()}};(document.head||document.getElementsByTagName("head")[0]).appendChild(b);__ATA.criteo.script=b}__ATA.criteo.cmd.push(c)}})();
+		</script>
+			</div>
+		</div>			</div><!-- .entry-content -->
+	<footer class="entry-meta">
+			</footer>
+</article><!-- #post-453 -->
+
+					
+	
+	<div id="comments" class="comments-area">
+
+	
+	
+	
+	
+</div><!-- #comments .comments-area -->
+				
+			</div><!-- #content -->
+		</div><!-- #primary .site-content -->
+
+
+	</div><!-- #main -->
+
+	
+	<footer id="colophon" class="site-footer clear-fix" role="contentinfo">
+		<div class="site-info">
+						<a href="https://wordpress.com/?ref=footer_blog">Blog at WordPress.com.</a>
+			
+					</div><!-- .site-info -->
+			</footer><!-- .site-footer .site-footer -->
+</div><!-- #page .hfeed .site -->
+
+<!--  -->
+<script type='text/javascript' src='//0.gravatar.com/js/gprofiles.js?ver=201807y'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var WPGroHo = {"my_hash":""};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://s1.wp.com/wp-content/mu-plugins/gravatar-hovercards/wpgroho.js?m=1380573781h'></script>
+
+	<script>
+		//initialize and attach hovercards to all gravatars
+		jQuery( document ).ready( function( $ ) {
+
+			if (typeof Gravatar === "undefined"){
+				return;
+			}
+
+			if ( typeof Gravatar.init !== "function" ) {
+				return;
+			}			
+
+			Gravatar.profile_cb = function( hash, id ) {
+				WPGroHo.syncProfileData( hash, id );
+			};
+			Gravatar.my_hash = WPGroHo.my_hash;
+			Gravatar.init( 'body', '#wp-admin-bar-my-account' );
+		});
+	</script>
+
+		<div style="display:none">
+	</div>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var comment_like_text = {"loading":"Loading..."};
+/* ]]> */
+</script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var actionbardata = {"siteID":"74373737","siteName":"Emery Berger","siteURL":"https:\/\/emeryberger.com","icon":"<img alt='' src='https:\/\/s1.wp.com\/i\/logo\/wpcom-gray-white.png' class='avatar avatar-50' height='50' width='50' \/>","canManageOptions":"","canCustomizeSite":"","isFollowing":"","themeSlug":"pub\/oxygen","signupURL":"https:\/\/wordpress.com\/start\/","loginURL":"https:\/\/emeryberger.wordpress.com\/wp-login.php?redirect_to=https%3A%2F%2Femeryberger.com%2Fsystems-for-data-science-compsci-590s%2F","themeURL":"","xhrURL":"https:\/\/emeryberger.com\/wp-admin\/admin-ajax.php","nonce":"3bcb3e1ce9","isSingular":"1","isFolded":"","isLoggedIn":"","isMobile":"","subscribeNonce":"<input type=\"hidden\" id=\"_wpnonce\" name=\"_wpnonce\" value=\"67467ea70b\" \/>","referer":"https:\/\/emeryberger.com\/systems-for-data-science-compsci-590s\/","canFollow":"","feedID":"25117729","statusMessage":"","customizeLink":"https:\/\/emeryberger.wordpress.com\/wp-admin\/customize.php?url=https%3A%2F%2Femeryberger.wordpress.com%2Fsystems-for-data-science-compsci-590s%2F","postID":"453","shortlink":"https:\/\/wp.me\/P5240p-7j","canEditPost":"","editLink":"https:\/\/wordpress.com\/page\/emeryberger.com\/453","statsLink":"https:\/\/wordpress.com\/stats\/post\/453\/emeryberger.com","i18n":{"view":"View site","follow":"Follow","following":"Following","edit":"Edit","login":"Log in","signup":"Sign up","customize":"Customize","report":"Report this content","themeInfo":"Get theme: Oxygen","shortlink":"Copy shortlink","copied":"Copied","followedText":"New posts from this site will now appear in your <a href=\"https:\/\/wordpress.com\/\">Reader<\/a>","foldBar":"Collapse this bar","unfoldBar":"Expand this bar","editSubs":"Manage subscriptions","viewReader":"View site in Reader","viewReadPost":"View post in Reader","subscribe":"Sign me up","enterEmail":"Enter your email address","followers":"Join 463 other followers","alreadyUser":"Already have a WordPress.com account? <a href=\"https:\/\/emeryberger.wordpress.com\/wp-login.php?redirect_to=https%3A%2F%2Femeryberger.com%2Fsystems-for-data-science-compsci-590s%2F\">Log in now.<\/a>","stats":"Stats"}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://s2.wp.com/_static/??-eJyVkF2OwjAMhC9EGlVaEDys9ixpYhWH2An5AXp7EhCo7GpRebPG800mlucgtOcMnKVN0sAJNYRLZ9NKzlZURHBlRE7S4QGSPBYosFdsHMQ3Zu2JqiTukG30INMZA3wCvQi/wbwHqrZQBukv0wjciETKOVGhsshu63fi1OlJO+gI+QEha1fMvQSSGiE5rwyY/zykkucaNFsvefclegl3E99cUJnaQAwqtkYZYp2EP0GM2Io+tQ8TclT68Of+c0hn9Nyg51TdP/Tdr/vNbrvuv7b2Cu906f0='></script>
+<script type="text/javascript">
+// <![CDATA[
+(function() {
+try{
+  if ( window.external &&'msIsSiteMode' in window.external) {
+    if (window.external.msIsSiteMode()) {
+      var jl = document.createElement('script');
+      jl.type='text/javascript';
+      jl.async=true;
+      jl.src='/wp-content/plugins/ie-sitemode/custom-jumplist.php';
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(jl, s);
+    }
+  }
+}catch(e){}
+})();
+// ]]>
+</script>	<script type="text/javascript">
+	var skimlinks_pub_id = "725X584219"
+	var skimlinks_sitename = "emeryberger.wordpress.com";
+	</script>
+	<script type="text/javascript" defer src="https://s.skimresources.com/js/725X1342.skimlinks.js"></script><script src="//stats.wp.com/w.js?56" type="text/javascript" async defer></script>
+<script type="text/javascript">
+_tkq = window._tkq || [];
+_stq = window._stq || [];
+_tkq.push(['storeContext', {'blog_id':'74373737','blog_tz':'-5','user_lang':'en','blog_lang':'en','user_id':'0'}]);
+_stq.push(['view', {'blog':'74373737','v':'wpcom','tz':'-5','user_id':'0','post':'453','subd':'emeryberger'}]);
+_stq.push(['extra', {'crypt':'UE5XaGUuOTlwaD85flAmcm1mcmZsaDhkV11YdWtpP0NsWnVkPS9sL0ViLndld3BuVT01Unp2dX5PUERZYystNzVBRktNTj0uRG5kbVFIZ0EmSC5ZRXRlOFpbWkpUJUdDRDAwbExkVS5DP25Jcz16M1F0V3paZCwwJTNNR196SDg3Z0cuZ35EbktQc2tuRElWeTAvSXJmcXd2X1l2L3lSQjlvUz1NPzlqLiVuUXVFX2YyZFo1XXBdOEJ8eTksRzZUL05aSFFFb3FVdDFLcUVbW3QuRHR1SkJneUtsdndheCU='}]);
+_stq.push([ 'clickTrackerInit', '74373737', '453' ]);
+	</script>
+<noscript><img src="https://pixel.wp.com/b.gif?v=noscript" style="height:0px;width:0px;overflow:hidden" alt="" /></noscript>
+<script>
+if ( 'object' === typeof wpcom_mobile_user_agent_info ) {
+
+	wpcom_mobile_user_agent_info.init();
+	var mobileStatsQueryString = "";
+	
+	if( false !== wpcom_mobile_user_agent_info.matchedPlatformName )
+		mobileStatsQueryString += "&x_" + 'mobile_platforms' + '=' + wpcom_mobile_user_agent_info.matchedPlatformName;
+	
+	if( false !== wpcom_mobile_user_agent_info.matchedUserAgentName )
+		mobileStatsQueryString += "&x_" + 'mobile_devices' + '=' + wpcom_mobile_user_agent_info.matchedUserAgentName;
+	
+	if( wpcom_mobile_user_agent_info.isIPad() )
+		mobileStatsQueryString += "&x_" + 'ipad_views' + '=' + 'views';
+
+	if( "" != mobileStatsQueryString ) {
+		new Image().src = document.location.protocol + '//pixel.wp.com/g.gif?v=wpcom-no-pv' + mobileStatsQueryString + '&baba=' + Math.random();
+	}
+	
+}
+</script>
+</body>
+</html>
